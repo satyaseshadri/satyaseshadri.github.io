@@ -1,0 +1,22 @@
+[
+  {
+    "Client": "VPRC",
+    "Project / Title": "Water treatment / energy assessment",
+    "Role": "Consultant",
+    "Period": "2023",
+    "Sector": "Water / Energy",
+    "Description": "(example — edit or delete)",
+    "Link": "",
+    "Show": "Yes"
+  },
+  {
+    "Client": "[Client name]",
+    "Project / Title": "[Assignment title]",
+    "Role": "Consultant / Advisor",
+    "Period": "2025",
+    "Sector": "[Sector]",
+    "Description": "[Short description]",
+    "Link": "",
+    "Show": "Yes"
+  }
+]

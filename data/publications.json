@@ -1,0 +1,1800 @@
+{
+ "generated_from": "Master_Publications_List.xlsx",
+ "count": 74,
+ "publications": [
+  {
+   "id": "J1",
+   "type": "journal",
+   "title": "Techno-economic analysis of vapour compression heat pump integration for decarbonizing the dairy processing industry in India",
+   "authors": [
+    "Modi N",
+    "Raghunathan A",
+    "Martin RK",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Modi N",
+    "Raghunathan A",
+    "Martin RK"
+   ],
+   "venue": "Energy Conversion and Management",
+   "year": 2026,
+   "cite": "356:121379",
+   "impact_factor": 9,
+   "theme": "Heat Pumps",
+   "top20": true,
+   "summary": "Heat Pumps Journal article in Energy Conversion and Management (2026).",
+   "doi": "10.1016/j.enconman.2026.121379",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 0
+  },
+  {
+   "id": "J2",
+   "type": "journal",
+   "title": "Modelling of condensation heat transfer inside horizontal smooth tubes: A machine learning based predictive approach",
+   "authors": [
+    "Neupane N",
+    "Saranathan S",
+    "Koundinya S",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Neupane N",
+    "Saranathan S",
+    "Koundinya S"
+   ],
+   "venue": "Int Comm Heat & Mass Transfer",
+   "year": 2026,
+   "cite": "172:110556",
+   "impact_factor": "",
+   "theme": "Heat Pumps / ML",
+   "top20": true,
+   "summary": "Heat Pumps / ML Journal article in Int Comm Heat & Mass Transfer (2026).",
+   "doi": "10.1016/j.icheatmasstransfer.2026.110556",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 0
+  },
+  {
+   "id": "J3",
+   "type": "journal",
+   "title": "Advancing Energy Storage Technologies Beyond Lithium With Cellulose-Derived Sustainable Carbon Materials",
+   "authors": [
+    "Dananjaya V et al.",
+    "Seshadri S",
+    "Nanjundan AK"
+   ],
+   "coauthors": [
+    "Dananjaya V et al.",
+    "Nanjundan AK"
+   ],
+   "venue": "Small Structures",
+   "year": 2026,
+   "cite": "7(1):e202500551",
+   "impact_factor": "",
+   "theme": "Energy Storage",
+   "top20": false,
+   "summary": "The transition to sustainable, high\u2010performance alternatives to lithium\u2010ion systems is accelerating research progress in electrochemical energy storage. Cellulose\u2010derived carbons, made from abundant, renewable biomass, are emerging as promising candidates, offering natural environmental friendliness, adjustable structure, and functional versatility. This review examines the hierarchical architecture of cellulose, its carbonization pathways, and the influence of extraction and processing methods on precursor properties. Advances in synthetic techniques, from heteroatom doping to creating composite\u2026",
+   "doi": "10.1002/sstr.202500551",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 1,
+   "abstract_ok": true
+  },
+  {
+   "id": "J4",
+   "type": "journal",
+   "title": "How Green is Green Hydrogen? \u2014 A Life-Cycle and Critical Raw Material Analysis via PEMW Electrolysers in India",
+   "authors": [
+    "Waiyaki P",
+    "Thekkethil R",
+    "Ananthakumar M",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Waiyaki P",
+    "Thekkethil R",
+    "Ananthakumar M"
+   ],
+   "venue": "Energy & Fuels",
+   "year": 2025,
+   "cite": "39(11):5534-5549",
+   "impact_factor": 5.3,
+   "theme": "Green Hydrogen",
+   "top20": true,
+   "summary": "The rapid progression of digitalization, decarbonisation, and democratisation within the energy system is accelerating the energy transition. To expedite this progress and achieve the Paris Agreement\u2019s net-zero objectives in India, there is a requisite need to enhance existing infrastructure and expand innovative technologies, such as green hydrogen production. Green hydrogen is pivotal as an energy carrier within power-to-X processes. The safe, sustainable, and compliant production of green hydrogen necessitates the\u2026",
+   "doi": "10.1021/acs.energyfuels.4c04200",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 5,
+   "abstract_ok": true
+  },
+  {
+   "id": "J5",
+   "type": "journal",
+   "title": "Quartz-enhanced photoacoustic spectroscopy-based acetone and ammonia measurements from human breath near 8 \u03bcm",
+   "authors": [
+    "Jothimani D et al.",
+    "Seshadri S",
+    "Vasa NJ"
+   ],
+   "coauthors": [
+    "Jothimani D et al.",
+    "Vasa NJ"
+   ],
+   "venue": "ACS Sensors",
+   "year": 2025,
+   "cite": "10(1):254-263",
+   "impact_factor": 8.2,
+   "theme": "Sensors",
+   "top20": false,
+   "summary": "Human breath gas analysis is a noninvasive disease diagnostic approach used to identify different pathological conditions in the human body. Monitoring breath acetone (C 3 H 6 O) and ammonia (NH 3 ) as biomarkers is vital in diagnosing diabetes mellitus and liver disorders, respectively. In this article, the quartz-enhanced photoacoustic spectroscopy (QEPAS) technique is proposed and demonstrated for measuring C 3 H 6 O and NH 3 in human\u2026",
+   "doi": "10.1021/acssensors.4c02336",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 11,
+   "abstract_ok": true
+  },
+  {
+   "id": "J6",
+   "type": "journal",
+   "title": "Film condensation dynamics of fourth-generation refrigerants under multiphase mixed convection on an inclined plate",
+   "authors": [
+    "Shiva N",
+    "Banerjee N",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Shiva N",
+    "Banerjee N"
+   ],
+   "venue": "Thermal Science & Eng Progress",
+   "year": 2025,
+   "cite": "62:103587",
+   "impact_factor": 5.1,
+   "theme": "Heat Pumps / Refrigerants",
+   "top20": true,
+   "summary": "To promote environmentally friendly HVAC systems, there has been a recent rise in the use of fourth-generation refrigerants with low ozone depletion potential (ODP) and low global warming potential (GWP). Numerous studies have examined the film condensation of these refrigerants in horizontal tubes under saturated vapour conditions, focusing on factors such as tube diameter , vapour quality, and more. This study investigates the underexplored influence of plate inclination on the\u2026",
+   "doi": "10.1016/j.tsep.2025.103587",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 1,
+   "abstract_ok": true
+  },
+  {
+   "id": "J7",
+   "type": "journal",
+   "title": "Transient spray cooling: An analytic predictive approach",
+   "authors": [
+    "Banerjee N",
+    "Tropea C",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Banerjee N",
+    "Tropea C"
+   ],
+   "venue": "Physical Review Fluids",
+   "year": 2025,
+   "cite": "10(5):053602",
+   "impact_factor": "",
+   "theme": "Thermal Management",
+   "top20": false,
+   "summary": "This study examines transient spray cooling of a heated substrate under a single nozzle, a situation commonly encountered in spray cooling or quenching applications. The temperature range is such that the cooling process goes through the three cooling regimes in time\u2014film boiling, transitional boiling, and nucleate boiling. The heat transfer associated with each drop impact is computed using validated theoretical expressions for each of the boiling regimes. These theoretical expressions\u2026",
+   "doi": "10.1103/physrevfluids.10.053602",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 5,
+   "abstract_ok": true
+  },
+  {
+   "id": "J8",
+   "type": "journal",
+   "title": "Numerical investigation of high temperature heat pump integrated hybrid cooling system",
+   "authors": [
+    "Koundinya S",
+    "Seshadri S",
+    "Hafner A"
+   ],
+   "coauthors": [
+    "Koundinya S",
+    "Hafner A"
+   ],
+   "venue": "Journal of Building Engineering",
+   "year": 2024,
+   "cite": "98:111037",
+   "impact_factor": 6.7,
+   "theme": "Heat Pumps",
+   "top20": true,
+   "summary": "Heat Pumps Journal article in Journal of Building Engineering (2024).",
+   "doi": "10.1016/j.jobe.2024.111037",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 3
+  },
+  {
+   "id": "J9",
+   "type": "journal",
+   "title": "High Temperature Corrosion of 304HCu Stainless Steel",
+   "authors": [
+    "Sanyal S et al.",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Sanyal S et al."
+   ],
+   "venue": "High Temp Corrosion of Materials",
+   "year": 2024,
+   "cite": "",
+   "impact_factor": 2.2,
+   "theme": "High-Temp Materials",
+   "top20": true,
+   "summary": "High-Temp Materials Journal article in High Temp Corrosion of Materials (2024).",
+   "doi": "10.1007/s11085-024-10252-z",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 7
+  },
+  {
+   "id": "J10",
+   "type": "journal",
+   "title": "Methodology to compute spray cooling in the nucleate boiling regime",
+   "authors": [
+    "Banerjee N",
+    "Tropea C",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Banerjee N",
+    "Tropea C"
+   ],
+   "venue": "Int J Heat & Mass Transfer",
+   "year": 2024,
+   "cite": "225:125375",
+   "impact_factor": 5,
+   "theme": "Thermal Management",
+   "top20": true,
+   "summary": "Thermal Management Journal article in Int J Heat & Mass Transfer (2024).",
+   "doi": "10.1016/j.ijheatmasstransfer.2024.125375",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 5
+  },
+  {
+   "id": "J11",
+   "type": "journal",
+   "title": "Methodology for modeling spray cooling of a cylindrical tube in film boiling regime",
+   "authors": [
+    "Banerjee N",
+    "Tropea C",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Banerjee N",
+    "Tropea C"
+   ],
+   "venue": "Int J Multiphase Flow",
+   "year": 2024,
+   "cite": "171:104662",
+   "impact_factor": 3.6,
+   "theme": "Thermal Management",
+   "top20": false,
+   "summary": "Thermal Management Journal article in Int J Multiphase Flow (2024).",
+   "doi": "10.1016/j.ijmultiphaseflow.2023.104662",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 10
+  },
+  {
+   "id": "J12",
+   "type": "journal",
+   "title": "Hollow-Core Fiber Based Broadband Absorption Spectroscopy With Dual-Wavelength Measurements",
+   "authors": [
+    "Selvaraj R",
+    "Seshadri S",
+    "Nagendra SS",
+    "Vasa NJ"
+   ],
+   "coauthors": [
+    "Selvaraj R",
+    "Nagendra SS",
+    "Vasa NJ"
+   ],
+   "venue": "IEEE Sensors Letters",
+   "year": 2024,
+   "cite": "8(8):3426971",
+   "impact_factor": 2.2,
+   "theme": "Sensors",
+   "top20": false,
+   "summary": "A hollow-core fiber (HCF) combined with a broadband supercontinuum laser-based direct absorption spectroscopy technique is pro- posed and demonstrated for concentration measurements of gas mixtu- res. A dual-wavelength technique is used to eliminate gas interference in multigas sensing. The concentrations of methane (CH<sub xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">4</sub>) in two bands, 1.6 and 2.3 \u00b5m, ammonia (NH<sub xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">3</sub>) in two bands, 2 and 2.3 \u00b5m, and carbon dioxide (CO<sub xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">2</sub>) in\u2026",
+   "doi": "10.1109/lsens.2024.3426971",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 1,
+   "abstract_ok": true
+  },
+  {
+   "id": "J13",
+   "type": "journal",
+   "title": "Low-pressure steam generating heat pump \u2014 design and field implementation case study",
+   "authors": [
+    "Koundinya S",
+    "Jothilingam J",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Koundinya S",
+    "Jothilingam J"
+   ],
+   "venue": "Thermal Science & Eng Progress",
+   "year": 2023,
+   "cite": "45:102140",
+   "impact_factor": 5.1,
+   "theme": "Heat Pumps",
+   "top20": true,
+   "summary": "Heat Pumps Journal article in Thermal Science & Eng Progress (2023).",
+   "doi": "10.1016/j.tsep.2023.102140",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 13
+  },
+  {
+   "id": "J14",
+   "type": "journal",
+   "title": "Parametric optimisation using data model to improve energy efficiency of vanadium redox flow batteries",
+   "authors": [
+    "Sankaralingam RK",
+    "Seshadri S",
+    "Sunarso J"
+   ],
+   "coauthors": [
+    "Sankaralingam RK",
+    "Sunarso J"
+   ],
+   "venue": "Journal of Energy Storage",
+   "year": 2023,
+   "cite": "64:107163",
+   "impact_factor": 8.9,
+   "theme": "Energy Storage",
+   "top20": true,
+   "summary": "Energy Storage Journal article in Journal of Energy Storage (2023).",
+   "doi": "10.1016/j.est.2023.107163",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 9
+  },
+  {
+   "id": "J15",
+   "type": "journal",
+   "title": "Dual-wavelength absorption technique for dryness measurement of wet steam",
+   "authors": [
+    "Chandra M",
+    "Seshadri S",
+    "Vasa NJ"
+   ],
+   "coauthors": [
+    "Chandra M",
+    "Vasa NJ"
+   ],
+   "venue": "Applied Optics",
+   "year": 2023,
+   "cite": "62(11):2748-55",
+   "impact_factor": 1.7,
+   "theme": "Emission Diagnostics",
+   "top20": true,
+   "summary": "This paper presents a dual-wavelength absorption-based approach for measuring and validating the steam dryness fraction of wet steam. A thermally insulated steam cell with a temperature-controlled measurement window (up to 200\u00b0C) is designed and fabricated to minimize condensation during water vapor measurements at different operating pressures (1\u201310 bars). Water vapor\u2019s measurement sensitivity and accuracy are limited due to other absorbing and non-absorbing species in wet steam. The measurement accuracy is\u2026",
+   "doi": "10.1364/ao.484408",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 2,
+   "abstract_ok": true
+  },
+  {
+   "id": "J16",
+   "type": "journal",
+   "title": "Dual absorption broadband photoacoustic technique to eliminate interference in gas mixtures",
+   "authors": [
+    "Kumar KS et al.",
+    "Seshadri S",
+    "Vasa NJ"
+   ],
+   "coauthors": [
+    "Kumar KS et al.",
+    "Vasa NJ"
+   ],
+   "venue": "IEEE Sensors Journal",
+   "year": 2023,
+   "cite": "23(6):5703-12",
+   "impact_factor": 4.3,
+   "theme": "Sensors",
+   "top20": false,
+   "summary": "This article presents a dual-wavelength band broadband photoacoustic spectroscopy (BPAS) technique ideally suited to low-energy broadband sources for industrial and environmental multigas sensing applications. The broad spectral range of the supercontinuum source is used to cover a wide range of absorption bands of various gases. The major limitation in most of the gas sensors with broadband sources is the effect of interference between gases. This article proposes a dual-wavelength technique\u2026",
+   "doi": "10.1109/jsen.2023.3239885",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 15,
+   "abstract_ok": true
+  },
+  {
+   "id": "J17",
+   "type": "journal",
+   "title": "Numerical Study on the effect of port geometry of intake manifold in a Steam Wankel Expander",
+   "authors": [
+    "Mukherjee A",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Mukherjee A"
+   ],
+   "venue": "Thermal Science & Eng Progress",
+   "year": 2023,
+   "cite": "37:101621",
+   "impact_factor": 5.1,
+   "theme": "Steam Wankel",
+   "top20": true,
+   "summary": "Steam Wankel Journal article in Thermal Science & Eng Progress (2023).",
+   "doi": "10.1016/j.tsep.2022.101621",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 2
+  },
+  {
+   "id": "J18",
+   "type": "journal",
+   "title": "Energy, exergy, environmental, and economic (4E) analysis and selection of best refrigerant for industrial heat pumps",
+   "authors": [
+    "Koundinya S",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Koundinya S"
+   ],
+   "venue": "Thermal Science & Eng Progress",
+   "year": 2022,
+   "cite": "36:101491",
+   "impact_factor": 5.1,
+   "theme": "Heat Pumps",
+   "top20": true,
+   "summary": "Heat Pumps Journal article in Thermal Science & Eng Progress (2022).",
+   "doi": "10.1016/j.tsep.2022.101491",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 38
+  },
+  {
+   "id": "J19",
+   "type": "journal",
+   "title": "Hollow-core optical fiber-based LIBS technique for elemental analysis of pulverized coal",
+   "authors": [
+    "Rajavelu H",
+    "Vasa NJ",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Rajavelu H",
+    "Vasa NJ"
+   ],
+   "venue": "Applied Physics A",
+   "year": 2022,
+   "cite": "128(10):868",
+   "impact_factor": 2.5,
+   "theme": "Emission Diagnostics",
+   "top20": false,
+   "summary": "Emission Diagnostics Journal article in Applied Physics A (2022).",
+   "doi": "",
+   "source": "Master_Publications_List.xlsx"
+  },
+  {
+   "id": "J20",
+   "type": "journal",
+   "title": "Effect of cut-off and compression ratio on isentropic efficiency of Wankel rotary steam expander",
+   "authors": [
+    "Gopal VV",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Gopal VV"
+   ],
+   "venue": "Applied Thermal Engineering",
+   "year": 2022,
+   "cite": "207:118212",
+   "impact_factor": 6.1,
+   "theme": "Steam Wankel",
+   "top20": true,
+   "summary": "Steam Wankel Journal article in Applied Thermal Engineering (2022).",
+   "doi": "10.1016/j.applthermaleng.2022.118212",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 10
+  },
+  {
+   "id": "J21",
+   "type": "journal",
+   "title": "A novel transcritical-recuperative two-stage ORC for dual/multi-source heat recovery",
+   "authors": [
+    "Surendran A",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Surendran A"
+   ],
+   "venue": "Energy",
+   "year": 2022,
+   "cite": "242:122961",
+   "impact_factor": 9,
+   "theme": "ORC / Waste Heat",
+   "top20": true,
+   "summary": "ORC / Waste Heat Journal article in Energy (2022).",
+   "doi": "",
+   "source": "Master_Publications_List.xlsx"
+  },
+  {
+   "id": "J22",
+   "type": "journal",
+   "title": "Effect of electrolyte parameters on discharge characteristics of planar zinc-air flow battery",
+   "authors": [
+    "Sankaralingam RK",
+    "Seshadri S",
+    "Sunarso J",
+    "Bhatt AI",
+    "Kapoor A"
+   ],
+   "coauthors": [
+    "Sankaralingam RK",
+    "Sunarso J",
+    "Bhatt AI",
+    "Kapoor A"
+   ],
+   "venue": "Energy Storage",
+   "year": 2022,
+   "cite": "4(2):e304",
+   "impact_factor": 3.6,
+   "theme": "Energy Storage",
+   "top20": true,
+   "summary": "Abstract Metal\u2010air batteries are emerging as a preferable choice among different battery technologies explored as an alternative to existing lithium\u2010ion batteries. These batteries can outperform the current lithium batteries in terms of specific energy, energy cost, and ability for alternative metal choice. Metal\u2010air flow batteries are being investigated in place of conventional metal\u2010air batteries to reduce metal passivation and dendrite formation which are considered to be the major limitations in\u2026",
+   "doi": "10.1002/est2.304",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 6,
+   "abstract_ok": true
+  },
+  {
+   "id": "J23",
+   "type": "journal",
+   "title": "An ejector based Transcritical Regenerative Series Two-Stage ORC for dual/multi-source heat recovery",
+   "authors": [
+    "Surendran A",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Surendran A"
+   ],
+   "venue": "Thermal Science & Eng Progress",
+   "year": 2022,
+   "cite": "27:101158",
+   "impact_factor": 5.1,
+   "theme": "ORC / Waste Heat",
+   "top20": true,
+   "summary": "ORC / Waste Heat Journal article in Thermal Science & Eng Progress (2022).",
+   "doi": "",
+   "source": "Master_Publications_List.xlsx"
+  },
+  {
+   "id": "J24",
+   "type": "journal",
+   "title": "PVA-based KOH polymer gel electrolyte as membrane separator for zinc-air flow battery",
+   "authors": [
+    "Sankaralingam RK",
+    "Seshadri S",
+    "Sunarso J",
+    "Bhatt AI",
+    "Kapoor A"
+   ],
+   "coauthors": [
+    "Sankaralingam RK",
+    "Sunarso J",
+    "Bhatt AI",
+    "Kapoor A"
+   ],
+   "venue": "Materials Today: Proceedings",
+   "year": 2022,
+   "cite": "64:1649-54",
+   "impact_factor": 4.9,
+   "theme": "Energy Storage",
+   "top20": false,
+   "summary": "Energy Storage Journal article in Materials Today: Proceedings (2022).",
+   "doi": "10.1016/j.matpr.2022.05.222",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 18
+  },
+  {
+   "id": "J25",
+   "type": "journal",
+   "title": "Overview of the factors affecting the performance of vanadium redox flow batteries",
+   "authors": [
+    "Sankaralingam RK",
+    "Seshadri S",
+    "Sunarso J",
+    "Bhatt AI",
+    "Kapoor A"
+   ],
+   "coauthors": [
+    "Sankaralingam RK",
+    "Sunarso J",
+    "Bhatt AI",
+    "Kapoor A"
+   ],
+   "venue": "Journal of Energy Storage",
+   "year": 2021,
+   "cite": "41:102857",
+   "impact_factor": 8.9,
+   "theme": "Energy Storage",
+   "top20": true,
+   "summary": "Energy Storage Journal article in Journal of Energy Storage (2021).",
+   "doi": "10.1016/j.est.2021.102857",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 88
+  },
+  {
+   "id": "J26",
+   "type": "journal",
+   "title": "LIBS combined with temporal plasma analysis of C2 molecular emission for carbon analysis in coal",
+   "authors": [
+    "Rajavelu H",
+    "Vasa NJ",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Rajavelu H",
+    "Vasa NJ"
+   ],
+   "venue": "Applied Spectroscopy",
+   "year": 2021,
+   "cite": "75(7):893-900",
+   "impact_factor": 2.2,
+   "theme": "Emission Diagnostics",
+   "top20": true,
+   "summary": "Emission Diagnostics Journal article in Applied Spectroscopy (2021).",
+   "doi": "",
+   "source": "Master_Publications_List.xlsx"
+  },
+  {
+   "id": "J27",
+   "type": "journal",
+   "title": "LIBS technique combined with blow gas and vacuum suction for powder sample characterization",
+   "authors": [
+    "Rajavelu H",
+    "Vasa NJ",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Rajavelu H",
+    "Vasa NJ"
+   ],
+   "venue": "Spectrochimica Acta Part B",
+   "year": 2021,
+   "cite": "181:106215",
+   "impact_factor": 3.2,
+   "theme": "Emission Diagnostics",
+   "top20": false,
+   "summary": "Emission Diagnostics Journal article in Spectrochimica Acta Part B (2021).",
+   "doi": "10.1016/j.sab.2021.106215",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 9
+  },
+  {
+   "id": "J28",
+   "type": "journal",
+   "title": "Design and performance analysis of a novel Transcritical Regenerative Series Two stage ORC",
+   "authors": [
+    "Surendran A",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Surendran A"
+   ],
+   "venue": "Energy",
+   "year": 2020,
+   "cite": "203:117800",
+   "impact_factor": 9,
+   "theme": "ORC / Waste Heat",
+   "top20": true,
+   "summary": "ORC / Waste Heat Journal article in Energy (2020).",
+   "doi": "",
+   "source": "Master_Publications_List.xlsx"
+  },
+  {
+   "id": "J29",
+   "type": "journal",
+   "title": "Polarization-resolved light scattering for eliminating interference of water aerosol in industrial stack PM measurement",
+   "authors": [
+    "Dogra V",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Dogra V"
+   ],
+   "venue": "Aerosol Science & Technology",
+   "year": 2020,
+   "cite": "54(6):729-38",
+   "impact_factor": 2.8,
+   "theme": "Emission Diagnostics",
+   "top20": false,
+   "summary": "In this study we report polarization resolved intensity measurements for flyash and water aerosol, respectively, in an industrial stack like environment, for the purpose of developing a methodology for in-situ PM measurements in wet stacks. Flyash and water aerosols up to 4 g/m3 mass concentration were seeded in a lab scale simulated industrial stack operated at velocities up to 15 m/s. Scattering of non-polarized (NP) and horizontally polarized light by\u2026",
+   "doi": "10.1080/02786826.2020.1724869",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 1,
+   "abstract_ok": true
+  },
+  {
+   "id": "J30",
+   "type": "journal",
+   "title": "Effect of ambiance on coal characterization using LIBS",
+   "authors": [
+    "Rajavelu H",
+    "Vasa NJ",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Rajavelu H",
+    "Vasa NJ"
+   ],
+   "venue": "Applied Physics A",
+   "year": 2020,
+   "cite": "126:1-10",
+   "impact_factor": 2.5,
+   "theme": "Emission Diagnostics",
+   "top20": false,
+   "summary": "Emission Diagnostics Journal article in Applied Physics A (2020).",
+   "doi": "10.1007/s00339-020-03558-7",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 22
+  },
+  {
+   "id": "J31",
+   "type": "journal",
+   "title": "Performance investigation of two stage ORC architectures using induction turbine layouts",
+   "authors": [
+    "Surendran A",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Surendran A"
+   ],
+   "venue": "Energy Conv & Mgmt: X",
+   "year": 2020,
+   "cite": "6:100029",
+   "impact_factor": 7.1,
+   "theme": "ORC / Waste Heat",
+   "top20": true,
+   "summary": "Improvement in performance of Organic Rankine Cycle (ORC) systems, particularly in the context of dual heat sources such as IC engines, leads to better return on investments. However, the choice of architecture to achieve the best performance is not evident from available literature. When two separate heat sources are present concurrently at different temperature levels with heat contents such as in IC engines, single stage pre-heated ORC and dual loop\u2026",
+   "doi": "10.1016/j.ecmx.2020.100029",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 48,
+   "abstract_ok": true
+  },
+  {
+   "id": "J32",
+   "type": "journal",
+   "title": "PDPA characterization and modeling of sprays from orthogonally interacting water and air jets",
+   "authors": [
+    "Mallik AK",
+    "Sarma TP",
+    "Roy A",
+    "Panchagnula MV",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Mallik AK",
+    "Sarma TP",
+    "Roy A",
+    "Panchagnula MV"
+   ],
+   "venue": "J Flow Visualization & Image Processing",
+   "year": 2020,
+   "cite": "27(2)",
+   "impact_factor": 0.8,
+   "theme": "Thermal Management",
+   "top20": false,
+   "summary": "Atomization of a jet in air cross flow has numerous applications in industrial and natural systems. In this study, spray characteristics (i.e., droplet mean diameter, Sauter mean diameter, and volume flux distribution) generated from perpendicularly interacting air jet of 7.5-mm diameter and water jet of 0.8-mm diameter are characterized using a phase Doppler particle analyzer (PDPA) in a forward scattering mode. The investigation is done for seven momentum ratios (q),\u2026",
+   "doi": "10.1615/jflowvisimageproc.2020031030",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 3,
+   "abstract_ok": true
+  },
+  {
+   "id": "J33",
+   "type": "journal",
+   "title": "Characterization and application of a nose-only exposure chamber for inhalation delivery",
+   "authors": [
+    "Mainelis G",
+    "Seshadri S et al."
+   ],
+   "coauthors": [
+    "Mainelis G"
+   ],
+   "venue": "J Aerosol Medicine & Pulmonary Drug Delivery",
+   "year": 2013,
+   "cite": "26(6):345-54",
+   "impact_factor": 2.1,
+   "theme": "Aerosol Science (Pre-IITM)",
+   "top20": false,
+   "summary": "BACKGROUND: A small nose-only exposure chamber was evaluated for inhalation delivery of drug carrier systems (DCSs) to mice for the treatment of lung cancer. The chamber then was used for inhalation delivery of an anticancer drug, antisense oligonucleotides (ASO), and small interfering RNA (siRNA) directly to the cancerous lungs of mice. METHODS: The uniformity of particle delivery across the ports of the exposure chamber and stability of the DCS (liposomes)\u2026",
+   "doi": "10.1089/jamp.2011-0966",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 69,
+   "abstract_ok": true
+  },
+  {
+   "id": "J34",
+   "type": "journal",
+   "title": "Application of ATP bioluminescence method to characterize bioaerosol sampling devices",
+   "authors": [
+    "Seshadri S",
+    "Han T",
+    "Krumins V",
+    "Fennell DE",
+    "Mainelis G"
+   ],
+   "coauthors": [
+    "Han T",
+    "Krumins V",
+    "Fennell DE",
+    "Mainelis G"
+   ],
+   "venue": "Journal of Aerosol Science",
+   "year": 2009,
+   "cite": "40(2):113-21",
+   "impact_factor": 3.9,
+   "theme": "Aerosol Science (Pre-IITM)",
+   "top20": false,
+   "summary": "Aerosol Science (Pre-IITM) Journal article in Journal of Aerosol Science (2009).",
+   "doi": "10.1016/j.jaerosci.2008.10.002",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 48
+  },
+  {
+   "id": "J35",
+   "type": "journal",
+   "title": "A circumferential slot in-line virtual impactor",
+   "authors": [
+    "Seshadri S",
+    "Hari S",
+    "Hu S",
+    "McFarland AR"
+   ],
+   "coauthors": [
+    "Hari S",
+    "Hu S",
+    "McFarland AR"
+   ],
+   "venue": "Aerosol Science & Technology",
+   "year": 2008,
+   "cite": "42(1):40-9",
+   "impact_factor": 2.8,
+   "theme": "Aerosol Science (Pre-IITM)",
+   "top20": false,
+   "summary": "An In-line Virtual Impactor is presented, which has an application as a pre-separator for sampling inlets, where the device scalps large particles from the aerosol size distribution. Numerical simulation was the principal tool employed in the design process, with physical experiments used to verify computational predictions. Performance investigations were primarily carried out for a configuration that provides a nominal cutpoint particle size of 10 \u03bc m aerodynamic diameter at an\u2026",
+   "doi": "10.1080/02786820701787928",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 7,
+   "abstract_ok": true
+  },
+  {
+   "id": "J36",
+   "type": "journal",
+   "title": "CFD study on compound impaction in a jet-in-well impactor",
+   "authors": [
+    "Hu S",
+    "Seshadri S",
+    "McFarland AR"
+   ],
+   "coauthors": [
+    "Hu S",
+    "McFarland AR"
+   ],
+   "venue": "Aerosol Science & Technology",
+   "year": 2007,
+   "cite": "41(12):1102-9",
+   "impact_factor": 2.8,
+   "theme": "Aerosol Science (Pre-IITM)",
+   "top20": false,
+   "summary": "In a classical jet impactor, the jet is assumed to impact on an infinite plate; however, the typical construction of an impactor necessitates that a wall surrounds the jet. If the wall is close to the jet, secondary impaction can take place on the wall. Also, for some impactor designs, e.g., large particle scalping devices in air sampling inlets, the jet is purposefully placed in a well and the overall\u2026",
+   "doi": "10.1080/02786820701777432",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 12,
+   "abstract_ok": true
+  },
+  {
+   "id": "J37",
+   "type": "journal",
+   "title": "Virtual impact fractionation of superconductor precursor powders in inert gas atmosphere",
+   "authors": [
+    "McFarland A",
+    "McIntyre P",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "McFarland A",
+    "McIntyre P"
+   ],
+   "venue": "IEEE Trans Applied Superconductivity",
+   "year": 2007,
+   "cite": "17(2):2576-9",
+   "impact_factor": 1.7,
+   "theme": "Pre-IITM",
+   "top20": false,
+   "summary": "Virtual impactor fractionation has been used to remove all particles over a selectable micron-sized threshold in samples of precursor powders for MgB <sub xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">2</sub> and Nb <sub xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">3</sub> Sn superconductors. In a virtual impactor the powder is dispersed in an aerosol stream and passed through a vane geometry in which particles less than a critical size follow the gas streamlines which turn abruptly into a collection chamber, while\u2026",
+   "doi": "10.1109/tasc.2007.898234",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 1,
+   "abstract_ok": true
+  },
+  {
+   "id": "J38",
+   "type": "journal",
+   "title": "Performance of a slit virtual impactor operated at high particle mass loading",
+   "authors": [
+    "Seshadri S",
+    "Phares DJ",
+    "Kim T",
+    "Kihm KD",
+    "Smith DD",
+    "McIntyre PM"
+   ],
+   "coauthors": [
+    "Phares DJ",
+    "Kim T",
+    "Kihm KD",
+    "Smith DD",
+    "McIntyre PM"
+   ],
+   "venue": "Journal of Aerosol Science",
+   "year": 2005,
+   "cite": "36(4):541-7",
+   "impact_factor": 3.9,
+   "theme": "Aerosol Science (Pre-IITM)",
+   "top20": false,
+   "summary": "Aerosol Science (Pre-IITM) Journal article in Journal of Aerosol Science (2005).",
+   "doi": "10.1016/j.jaerosci.2004.10.006",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 5
+  },
+  {
+   "id": "J39",
+   "type": "journal",
+   "title": "Visualization of defect particle transmission to major flow of a slit virtual impactor",
+   "authors": [
+    "Kim TK",
+    "Seshadri S",
+    "Kihm KD",
+    "Phares DJ",
+    "McIntyre PM"
+   ],
+   "coauthors": [
+    "Kim TK",
+    "Kihm KD",
+    "Phares DJ",
+    "McIntyre PM"
+   ],
+   "venue": "Aerosol Science & Technology",
+   "year": 2004,
+   "cite": "38(9):870-80",
+   "impact_factor": 2.8,
+   "theme": "Aerosol Science (Pre-IITM)",
+   "top20": false,
+   "summary": "Convective transport behavior of monodisperse supermicron particles has been analyzed in a slit virtual impactor.Particle trajectories were visualized using video imaging of scattered light and fluorescence from particles traversing the separation region of the impactor.The collection efficiency of the major flow was measured on an individual-particle basis for bulk Stokes numbers ranging from 0.42 to 25.We present an analysis based upon the local Stokes number to explain the transmission frequency\u2026",
+   "doi": "10.1080/027868290505161",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 14,
+   "abstract_ok": true
+  },
+  {
+   "id": "J40",
+   "type": "journal",
+   "title": "Long-exposure air and steam oxidation of 617 alloys",
+   "authors": [
+    "Karthikeyan R",
+    "Seshadri S",
+    "Sarma VS",
+    "Kamaraj M"
+   ],
+   "coauthors": [
+    "Karthikeyan R",
+    "Sarma VS",
+    "Kamaraj M"
+   ],
+   "venue": "Corrosion & Materials Degradation",
+   "year": 2023,
+   "cite": "",
+   "impact_factor": 3.4,
+   "theme": "High-Temp Materials",
+   "top20": false,
+   "summary": "India\u2019s growing power demands and emission norms require more efficient coal-based power plants. The shifting of power plants from subcritical to ultra-supercritical (USC) steam conditions could improve efficiency by 12% and reduce CO2 emissions by 35%. There is a need to develop and qualify materials under ultra-supercritical steam conditions with high temperatures and high pressures in laboratory scale. The sample materials were exposed to high temperatures of 700 \u00b0C under\u2026",
+   "doi": "10.3390/cmd4010006",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 3,
+   "abstract_ok": true
+  },
+  {
+   "id": "C1",
+   "type": "conference",
+   "title": "Climate Action Tool (CAT): Philosophy and case studies",
+   "authors": [
+    "Koushik AV",
+    "Sankaralingam RK et al.",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Koushik AV",
+    "Sankaralingam RK et al."
+   ],
+   "venue": "2024 AIChE Annual Meeting",
+   "year": 2024,
+   "cite": "",
+   "impact_factor": "",
+   "theme": "Climate / Tools",
+   "top20": false,
+   "summary": "Climate / Tools Conference paper in 2024 AIChE Annual Meeting (2024).",
+   "doi": "",
+   "source": "Master_Publications_List.xlsx"
+  },
+  {
+   "id": "C2",
+   "type": "conference",
+   "title": "Methodology to compute spray cooling in the nucleate boiling regime",
+   "authors": [
+    "Banerjee N",
+    "Tropea C",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Banerjee N",
+    "Tropea C"
+   ],
+   "venue": "16th ICLASS",
+   "year": 2024,
+   "cite": "Shanghai, China",
+   "impact_factor": "",
+   "theme": "Thermal Management",
+   "top20": false,
+   "summary": "Thermal Management Conference paper in 16th ICLASS (2024).",
+   "doi": "10.1016/j.ijheatmasstransfer.2024.125375",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 5
+  },
+  {
+   "id": "C3",
+   "type": "conference",
+   "title": "Methodology for modelling spray cooling of a cylindrical tube in film boiling regime",
+   "authors": [
+    "Banerjee N",
+    "Tropea C",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Banerjee N",
+    "Tropea C"
+   ],
+   "venue": "9th World Congress on Momentum, Heat & Mass Transfer",
+   "year": 2024,
+   "cite": "London, UK",
+   "impact_factor": "",
+   "theme": "Thermal Management",
+   "top20": false,
+   "summary": "Thermal Management Conference paper in 9th World Congress on Momentum, Heat & Mass Transfer (2024).",
+   "doi": "10.1016/j.ijmultiphaseflow.2023.104662",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 10
+  },
+  {
+   "id": "C4",
+   "type": "conference",
+   "title": "ML Based Predictive Modeling of Air-side Heat Transfer Coefficient in Finned-Tube HX",
+   "authors": [
+    "Neupane N et al.",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Neupane N et al."
+   ],
+   "venue": "Int Conf Fluid, Thermal & Energy Systems",
+   "year": 2024,
+   "cite": "NIT Calicut",
+   "impact_factor": "",
+   "theme": "Heat Pumps / ML",
+   "top20": false,
+   "summary": "Heat Pumps / ML Conference paper in Int Conf Fluid, Thermal & Energy Systems (2024).",
+   "doi": "",
+   "source": "Master_Publications_List.xlsx"
+  },
+  {
+   "id": "C5",
+   "type": "conference",
+   "title": "Estimation of LCOE and LCCA: Solar vs Steam Expander for Paper Industry",
+   "authors": [
+    "Kanakasabapathi D",
+    "Bansal S",
+    "Seshadri S",
+    "Sahu SK"
+   ],
+   "coauthors": [
+    "Kanakasabapathi D",
+    "Bansal S",
+    "Sahu SK"
+   ],
+   "venue": "IEEE ISGT Europe 2024",
+   "year": 2024,
+   "cite": "",
+   "impact_factor": "",
+   "theme": "Steam Expander / Wankel",
+   "top20": false,
+   "summary": "Steam Expander / Wankel Conference paper in IEEE ISGT Europe 2024 (2024).",
+   "doi": "",
+   "source": "Master_Publications_List.xlsx"
+  },
+  {
+   "id": "C6",
+   "type": "conference",
+   "title": "ML based Predictive Modeling of HTC in Two-phase Flows of Refrigerants",
+   "authors": [
+    "Nivash M",
+    "Koundinya S et al.",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Nivash M",
+    "Koundinya S et al."
+   ],
+   "venue": "Int Conf Refrigeration & Air-conditioning",
+   "year": 2024,
+   "cite": "IIT Madras",
+   "impact_factor": "",
+   "theme": "Heat Pumps / ML",
+   "top20": false,
+   "summary": "Heat Pumps / ML Conference paper in Int Conf Refrigeration & Air-conditioning (2024).",
+   "doi": "",
+   "source": "Master_Publications_List.xlsx"
+  },
+  {
+   "id": "C7",
+   "type": "conference",
+   "title": "Experimental Study using THF Hydrates as Thermal Energy Storage for Milk-Chilling",
+   "authors": [
+    "Dhanavardhan M et al.",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Dhanavardhan M et al."
+   ],
+   "venue": "Int Conf Refrigeration & Air-conditioning",
+   "year": 2024,
+   "cite": "IIT Madras",
+   "impact_factor": "",
+   "theme": "Thermal Storage",
+   "top20": false,
+   "summary": "Thermal Storage Conference paper in Int Conf Refrigeration & Air-conditioning (2024).",
+   "doi": "",
+   "source": "Master_Publications_List.xlsx"
+  },
+  {
+   "id": "C8",
+   "type": "conference",
+   "title": "Comparative study on Multiphase Dynamics of Unsteady Film Condensation",
+   "authors": [
+    "Shiva N",
+    "Banerjee N",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Shiva N",
+    "Banerjee N"
+   ],
+   "venue": "27th ISHMT-ASTFE Heat & Mass Transfer Conf",
+   "year": 2023,
+   "cite": "IIT Patna",
+   "impact_factor": "",
+   "theme": "Thermal Management",
+   "top20": false,
+   "summary": "Thermal Management Conference paper in 27th ISHMT-ASTFE Heat & Mass Transfer Conf (2023).",
+   "doi": "10.1615/ihmtc-2023.770",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 0
+  },
+  {
+   "id": "C9",
+   "type": "conference",
+   "title": "Numerical and Experimental Study of 120\u00b0C Heat Pump Using Scroll Compressor",
+   "authors": [
+    "Koundinya S",
+    "Jothilingam J",
+    "Martin SR",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Koundinya S",
+    "Jothilingam J",
+    "Martin SR"
+   ],
+   "venue": "Int Conf Compressors & their Systems (Springer)",
+   "year": 2023,
+   "cite": "",
+   "impact_factor": "",
+   "theme": "Heat Pumps",
+   "top20": false,
+   "summary": "Heat Pumps Conference paper in Int Conf Compressors & their Systems (Springer) (2023).",
+   "doi": "10.1007/978-3-031-42663-6_27",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 0
+  },
+  {
+   "id": "C10",
+   "type": "conference",
+   "title": "CO2 Emission, Population, Energy Consumption and Economic Growth in Ghana",
+   "authors": [
+    "Kafayat AK",
+    "Seshadri S",
+    "Sahu SK"
+   ],
+   "coauthors": [
+    "Kafayat AK",
+    "Sahu SK"
+   ],
+   "venue": "Int Conf Energy Conversion & Storage (IECS)",
+   "year": 2023,
+   "cite": "IIT Madras",
+   "impact_factor": "",
+   "theme": "Energy Policy",
+   "top20": false,
+   "summary": "Energy Policy Conference paper in Int Conf Energy Conversion & Storage (IECS) (2023).",
+   "doi": "",
+   "source": "Master_Publications_List.xlsx"
+  },
+  {
+   "id": "C11",
+   "type": "conference",
+   "title": "Optimum Flow Field Design for Tubular Vanadium Redox Flow Battery",
+   "authors": [
+    "Singh HP",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Singh HP"
+   ],
+   "venue": "IECS-2023",
+   "year": 2023,
+   "cite": "IIT Madras",
+   "impact_factor": "",
+   "theme": "Energy Storage",
+   "top20": false,
+   "summary": "Energy Storage Conference paper in IECS-2023 (2023).",
+   "doi": "",
+   "source": "Master_Publications_List.xlsx"
+  },
+  {
+   "id": "C12",
+   "type": "conference",
+   "title": "Numerical Investigation of Pressure Losses During Intake in a Steam Wankel Expander",
+   "authors": [
+    "Mukherjee A",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Mukherjee A"
+   ],
+   "venue": "Int Compressor Engineering Conf (Purdue)",
+   "year": 2022,
+   "cite": "Purdue",
+   "impact_factor": "",
+   "theme": "Steam Wankel",
+   "top20": false,
+   "summary": "A Wankel steam expander has numerous advantages over other positive displacement machines as an expansion device. This is due to its high power to weight ratio, compactness, lower noise, vibration, and potentially lower specific cost making them a favourable choice over reciprocating expanders. Admission in the expander chamber occurs through rotary valves fed with steam supply from a boiler. The present study aims to investigate the magnitude of pressure losses\u2026",
+   "doi": "10.48550/arxiv.2208.13773",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 0,
+   "abstract_ok": true
+  },
+  {
+   "id": "C13",
+   "type": "conference",
+   "title": "Multiphase Modelling of Thin Film Flow Over Vertical Plate (Springer)",
+   "authors": [
+    "Shiva N",
+    "Banerjee N",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Shiva N",
+    "Banerjee N"
+   ],
+   "venue": "Conf Fluid Mechanics & Fluid Power",
+   "year": 2022,
+   "cite": "",
+   "impact_factor": "",
+   "theme": "Thermal Management",
+   "top20": false,
+   "summary": "Thermal Management Conference paper in Conf Fluid Mechanics & Fluid Power (2022).",
+   "doi": "",
+   "source": "Master_Publications_List.xlsx"
+  },
+  {
+   "id": "C14",
+   "type": "conference",
+   "title": "Mathematical Approach for Spray HT for Textured Cylindrical Surfaces in Nucleate Boiling",
+   "authors": [
+    "Banerjee N",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Banerjee N"
+   ],
+   "venue": "ILASS-Asia 22nd Annual Conf",
+   "year": 2022,
+   "cite": "IIT Indore",
+   "impact_factor": "",
+   "theme": "Thermal Management",
+   "top20": false,
+   "summary": "Thermal Management Conference paper in ILASS-Asia 22nd Annual Conf (2022).",
+   "doi": "",
+   "source": "Master_Publications_List.xlsx"
+  },
+  {
+   "id": "C15",
+   "type": "conference",
+   "title": "Michelson Interferometry for Dryness Measurement of Saturated Steam",
+   "authors": [
+    "Chandra M",
+    "Seshadri S",
+    "Vasa NJ"
+   ],
+   "coauthors": [
+    "Chandra M",
+    "Vasa NJ"
+   ],
+   "venue": "Optica Publishing Group",
+   "year": 2022,
+   "cite": "",
+   "impact_factor": "",
+   "theme": "Emission Diagnostics",
+   "top20": false,
+   "summary": "Saturated steam dryness is derived from the refractive index measured using the Michelson Interferometer. For the measurement, the interdependence of the refractive index on wavelength, temperature, pressure, and density is used. The methodology is non-invasive and eliminates the use of multiple sources for dryness measurement.",
+   "doi": "10.1364/3d.2022.jw2a.13",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 0,
+   "abstract_ok": true
+  },
+  {
+   "id": "C16",
+   "type": "conference",
+   "title": "Long exposure steam oxidation studies on 304HCu and IN 617",
+   "authors": [
+    "Karthikeyan R",
+    "Seshadri S",
+    "Sarma VS",
+    "Kamaraj M"
+   ],
+   "coauthors": [
+    "Karthikeyan R",
+    "Sarma VS",
+    "Kamaraj M"
+   ],
+   "venue": "2nd Corrosion & Materials Degradation Web Conf",
+   "year": 2022,
+   "cite": "",
+   "impact_factor": "",
+   "theme": "High-Temp Materials",
+   "top20": false,
+   "summary": "High-Temp Materials Conference paper in 2nd Corrosion & Materials Degradation Web Conf (2022).",
+   "doi": "",
+   "source": "Master_Publications_List.xlsx"
+  },
+  {
+   "id": "C17",
+   "type": "conference",
+   "title": "Performance study of desiccant enhanced ejector-based transcritical CO2 heat pump",
+   "authors": [
+    "Koundinya S",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Koundinya S"
+   ],
+   "venue": "15th IIR-Gustav Lorentzen Conf",
+   "year": 2022,
+   "cite": "NTNU, Trondheim, Norway",
+   "impact_factor": "",
+   "theme": "Heat Pumps",
+   "top20": false,
+   "summary": "Heat Pumps Conference paper in 15th IIR-Gustav Lorentzen Conf (2022).",
+   "doi": "",
+   "source": "Master_Publications_List.xlsx"
+  },
+  {
+   "id": "C18",
+   "type": "conference",
+   "title": "Numerical Model for Condensing Steam Through Labyrinth Seal",
+   "authors": [
+    "Devi RG",
+    "Seshadri S",
+    "Michelassi V"
+   ],
+   "coauthors": [
+    "Devi RG",
+    "Michelassi V"
+   ],
+   "venue": "ASME Turbo Expo 2021",
+   "year": 2021,
+   "cite": "",
+   "impact_factor": "",
+   "theme": "Steam / GE Heritage",
+   "top20": false,
+   "summary": "Abstract This paper presents the flow physics of condensing steam flow across a straight through labyrinth seal from numerical simulations performed using ANSYS CFX. Homogeneous nucleation model and droplet growth model, which are critical in predicting condensation, are validated with good agreement against a well-known experimental data set from convergent-divergent nozzle. Validation data includes static pressure drop, condensation location, condensate mass fraction and Sauter mean radius. CFD study is performed\u2026",
+   "doi": "10.1115/gt2021-58736",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 1,
+   "abstract_ok": true
+  },
+  {
+   "id": "C19",
+   "type": "conference",
+   "title": "Determination of Ash Content in Coal Using LIBS with Multivariate Analysis",
+   "authors": [
+    "Rajavelu H",
+    "Vasa NJ",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Rajavelu H",
+    "Vasa NJ"
+   ],
+   "venue": "ICOL-2019 (Springer)",
+   "year": 2021,
+   "cite": "Dehradun",
+   "impact_factor": "",
+   "theme": "Emission Diagnostics",
+   "top20": false,
+   "summary": "Emission Diagnostics Conference paper in ICOL-2019 (Springer) (2021).",
+   "doi": "",
+   "source": "Master_Publications_List.xlsx"
+  },
+  {
+   "id": "C20",
+   "type": "conference",
+   "title": "Preliminary Investigations of a Novel Dual Evaporator Dual Ejector Refrigeration Cycle",
+   "authors": [
+    "Bhat A",
+    "Surendran A",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Bhat A",
+    "Surendran A"
+   ],
+   "venue": "Conference",
+   "year": 2021,
+   "cite": "",
+   "impact_factor": "",
+   "theme": "ORC / Cooling",
+   "top20": false,
+   "summary": "Increasing air conditioning and domestic refrigeration demands pose a massive burden on grid electricity calling for efficient cooling technologies. In this paper, a novel refrigeration architecture -the Dual Evaporator Dual Ejector Cycle (DEDEC) is proposed. The DEDEC utilizes separate high and low-temperature (HT and LT) evaporators and two ejectors, allowing cooling at two different temperatures levels. Compared to the conventional Dual Evaporator Ejector Cycle, the proposed architecture maintains a higher\u2026",
+   "doi": "",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 1,
+   "abstract_ok": true
+  },
+  {
+   "id": "C21",
+   "type": "conference",
+   "title": "Effect of electrolyte flow rate and anode materials on zinc-air discharge",
+   "authors": [
+    "Sankaralingam RK",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Sankaralingam RK"
+   ],
+   "venue": "Int Flow Battery Forum",
+   "year": 2021,
+   "cite": "",
+   "impact_factor": "",
+   "theme": "Energy Storage",
+   "top20": false,
+   "summary": "Energy Storage Conference paper in Int Flow Battery Forum (2021).",
+   "doi": "",
+   "source": "Master_Publications_List.xlsx"
+  },
+  {
+   "id": "C22",
+   "type": "conference",
+   "title": "Real-time Steam Quality Measurement using TDLAS for Process Industries",
+   "authors": [
+    "Chandra M",
+    "Seshadri S",
+    "Vasa NJ"
+   ],
+   "coauthors": [
+    "Chandra M",
+    "Vasa NJ"
+   ],
+   "venue": "Applied Industrial Spectroscopy (Optica)",
+   "year": 2020,
+   "cite": "",
+   "impact_factor": "",
+   "theme": "Emission Diagnostics",
+   "top20": false,
+   "summary": "Emission Diagnostics Conference paper in Applied Industrial Spectroscopy (Optica) (2020).",
+   "doi": "",
+   "source": "Master_Publications_List.xlsx"
+  },
+  {
+   "id": "C23",
+   "type": "conference",
+   "title": "Application of continuous wavelet transform for elimination of spectral interference in UV spectroscopy",
+   "authors": [
+    "Balachandran A",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Balachandran A"
+   ],
+   "venue": "Applied Industrial Spectroscopy (Optica)",
+   "year": 2020,
+   "cite": "",
+   "impact_factor": "",
+   "theme": "Emission Diagnostics",
+   "top20": false,
+   "summary": "A novel method of spectrum analysis based on frequency of absorption spectrum is developed. Gas sensing of Sulphur dioxide in 200-220 nm has error due to spectral interference from absorption of other gases. This is minimized by analysing frequency component of spectra obtained by continuous wavelet transform which represents only Sulphur dioxide.",
+   "doi": "10.1364/ais.2020.atu4i.6",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 0,
+   "abstract_ok": true
+  },
+  {
+   "id": "C24",
+   "type": "conference",
+   "title": "Heat pump/chiller system for centralized kitchens in India",
+   "authors": [
+    "Singh S",
+    "Hafner A",
+    "Banasiak K",
+    "Seshadri S",
+    "Maiya P et al."
+   ],
+   "coauthors": [
+    "Singh S",
+    "Hafner A",
+    "Banasiak K",
+    "Maiya P et al."
+   ],
+   "venue": "14th IIR-Gustav Lorentzen Conf",
+   "year": 2020,
+   "cite": "",
+   "impact_factor": "",
+   "theme": "Heat Pumps",
+   "top20": false,
+   "summary": "A heat pump unit using CO2 as working fluid is designed to meet not only a part of the heating demand in the centralised kitchen at The Akshaya Patra Foundation, Bengaluru, India, but also the entire cooling demand to replace the existing HCFC units for AC. The proposed heat pump system generates hot water at ~90oC which is stored in hot water storage tanks for use in the cooking cauldrons.\u2026",
+   "doi": "10.18462/iir.gl.2020.1139",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 1,
+   "abstract_ok": true
+  },
+  {
+   "id": "C25",
+   "type": "conference",
+   "title": "Dynamics of Thin Film over Flat Rough Surface Moving with Specified Velocity",
+   "authors": [
+    "Banerjee N",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Banerjee N"
+   ],
+   "venue": "Conf Fluid Mechanics & Fluid Power",
+   "year": 2020,
+   "cite": "IIT Guwahati",
+   "impact_factor": "",
+   "theme": "Thermal Management",
+   "top20": false,
+   "summary": "Thermal Management Conference paper in Conf Fluid Mechanics & Fluid Power (2020).",
+   "doi": "",
+   "source": "Master_Publications_List.xlsx"
+  },
+  {
+   "id": "C26",
+   "type": "conference",
+   "title": "Performance analysis of R245fa-cyclopentane zeotropic mixtures in PEORC",
+   "authors": [
+    "Surendran A",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Surendran A"
+   ],
+   "venue": "5th Int Seminar on ORC Power Systems",
+   "year": 2019,
+   "cite": "",
+   "impact_factor": "",
+   "theme": "ORC / Waste Heat",
+   "top20": false,
+   "summary": "ORC / Waste Heat Conference paper in 5th Int Seminar on ORC Power Systems (2019).",
+   "doi": "",
+   "source": "Master_Publications_List.xlsx"
+  },
+  {
+   "id": "C27",
+   "type": "conference",
+   "title": "Nanosecond and femtosecond LIBS studies of coal and ash",
+   "authors": [
+    "Hemalaxmi R",
+    "Aparna N",
+    "Vasa NJ",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Hemalaxmi R",
+    "Aparna N",
+    "Vasa NJ"
+   ],
+   "venue": "CLEO-PR 2018 (IEEE)",
+   "year": 2018,
+   "cite": "",
+   "impact_factor": "",
+   "theme": "Emission Diagnostics",
+   "top20": false,
+   "summary": "Emission Diagnostics Conference paper in CLEO-PR 2018 (IEEE) (2018).",
+   "doi": "",
+   "source": "Master_Publications_List.xlsx"
+  },
+  {
+   "id": "C28",
+   "type": "conference",
+   "title": "Linear Fresnel reflector based solar radiation concentrator for combined heating and power",
+   "authors": [
+    "Chatterjee A",
+    "Bernal E",
+    "Seshadri S et al."
+   ],
+   "coauthors": [
+    "Chatterjee A",
+    "Bernal E"
+   ],
+   "venue": "AIP Conference Proceedings",
+   "year": 2011,
+   "cite": "",
+   "impact_factor": "",
+   "theme": "Solar / GE Heritage",
+   "top20": false,
+   "summary": "We have designed and realized a test rig to characterize concentrated solar\u2010based CHP (combined heat and power) generator. Cost benefit analysis has been used to compare alternate technologies, which can cogenerate electrical and thermal power. We have summarized the experimental setup and methods to characterize a concentrated solar thermal (CST) unit. In this paper, we demonstrate the performance data of a concentrated solar thermal system.",
+   "doi": "10.1063/1.3658339",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 5,
+   "abstract_ok": true
+  },
+  {
+   "id": "C29",
+   "type": "conference",
+   "title": "Li-Fe-Co-Si Active Magnetic Regenerator for Room Temperature Cooling",
+   "authors": [
+    "Singh P",
+    "Srikanti K",
+    "Chandra M",
+    "Gopalan R",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Singh P",
+    "Srikanti K",
+    "Chandra M",
+    "Gopalan R"
+   ],
+   "venue": "Conference",
+   "year": null,
+   "cite": "",
+   "impact_factor": "",
+   "theme": "Cooling",
+   "top20": false,
+   "summary": "Cooling Conference paper in Conference (None).",
+   "doi": "",
+   "source": "Master_Publications_List.xlsx"
+  },
+  {
+   "id": "C30",
+   "type": "conference",
+   "title": "Simulation and Experimental Study of QEPAS for Human Breath Gas Sensing",
+   "authors": [
+    "Kumar KS et al.",
+    "Seshadri S",
+    "Vasa NJ"
+   ],
+   "coauthors": [
+    "Kumar KS et al.",
+    "Vasa NJ"
+   ],
+   "venue": "ICBSII 2025 (IEEE)",
+   "year": 2025,
+   "cite": "",
+   "impact_factor": "",
+   "theme": "Sensors",
+   "top20": false,
+   "summary": "Sensors Conference paper in ICBSII 2025 (IEEE) (2025).",
+   "doi": "",
+   "source": "Master_Publications_List.xlsx"
+  },
+  {
+   "id": "B1",
+   "type": "book",
+   "title": "Battery modeling",
+   "authors": [
+    "Sankaralingam RK",
+    "Ravuthan M",
+    "Seshadri S",
+    "Sunarso J"
+   ],
+   "coauthors": [
+    "Sankaralingam RK",
+    "Ravuthan M",
+    "Sunarso J"
+   ],
+   "venue": "Nanostructured Materials Engineering and Characterization for Battery Applications, Elsevier",
+   "year": 2024,
+   "cite": "43-74",
+   "impact_factor": "",
+   "theme": "Book Chapter",
+   "top20": false,
+   "summary": "Book Chapter Book chapter in Nanostructured Materials Engineering and Characterization for Battery Applications, Elsevier (2024).",
+   "doi": "",
+   "source": "Master_Publications_List.xlsx"
+  },
+  {
+   "id": "B2",
+   "type": "book",
+   "title": "Comparative Study of 2D Heat Transfer Models for a Wankel Expander",
+   "authors": [
+    "Subburai G",
+    "Gopal VV",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Subburai G",
+    "Gopal VV"
+   ],
+   "venue": "Recent Advances in Applied Mechanics (VSAM 2021), Lecture Notes in Mechanical Engineering, Springer Verlag, Singapore",
+   "year": 2022,
+   "cite": "663-671",
+   "impact_factor": "",
+   "theme": "Book Chapter",
+   "top20": false,
+   "summary": "Book Chapter Book chapter in Recent Advances in Applied Mechanics (VSAM 2021), Lecture Notes in Mechanical Engineering, Springer Verlag, Singapore (2022).",
+   "doi": "10.1007/978-981-16-9539-1_49",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 2
+  },
+  {
+   "id": "B3",
+   "type": "book",
+   "title": "Development of Heat Exchanger Models for Predicting Heat Transfer Behaviour of Mixed Refrigerants",
+   "authors": [
+    "Emmanuel A",
+    "Seshadri S",
+    "Koundinya S"
+   ],
+   "coauthors": [
+    "Emmanuel A",
+    "Koundinya S"
+   ],
+   "venue": "Recent Advances in Applied Mechanics (VSAM 2021), Lecture Notes in Mechanical Engineering, Springer Verlag, Singapore",
+   "year": 2022,
+   "cite": "687-696",
+   "impact_factor": "",
+   "theme": "Book Chapter",
+   "top20": false,
+   "summary": "Book Chapter Book chapter in Recent Advances in Applied Mechanics (VSAM 2021), Lecture Notes in Mechanical Engineering, Springer Verlag, Singapore (2022).",
+   "doi": "10.1007/978-981-16-9539-1_51",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 1
+  },
+  {
+   "id": "B4",
+   "type": "book",
+   "title": "A Novel Desiccant-Based Cooling System for Hot and Humid Climates",
+   "authors": [
+    "Koundinya S",
+    "Seshadri S"
+   ],
+   "coauthors": [
+    "Koundinya S"
+   ],
+   "venue": "Recent Advances in Applied Mechanics (VSAM 2021), Lecture Notes in Mechanical Engineering, Springer Verlag, Singapore",
+   "year": 2022,
+   "cite": "673-685",
+   "impact_factor": "",
+   "theme": "Book Chapter",
+   "top20": false,
+   "summary": "Book Chapter Book chapter in Recent Advances in Applied Mechanics (VSAM 2021), Lecture Notes in Mechanical Engineering, Springer Verlag, Singapore (2022).",
+   "doi": "10.1007/978-981-16-9539-1_50",
+   "source": "Master_Publications_List.xlsx",
+   "citations": 1
+  }
+ ]
+}

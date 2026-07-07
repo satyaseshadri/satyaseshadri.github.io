@@ -1,0 +1,752 @@
+{
+  "count": 83,
+  "collaborators": [
+    {
+      "name": "Vasa NJ",
+      "joint_papers": 13,
+      "latest_year": 2025,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Banerjee N",
+      "joint_papers": 10,
+      "latest_year": 2025,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Koundinya S",
+      "joint_papers": 8,
+      "latest_year": 2026,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Sankaralingam RK",
+      "joint_papers": 6,
+      "latest_year": 2024,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Surendran A",
+      "joint_papers": 6,
+      "latest_year": 2022,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Tropea C",
+      "joint_papers": 5,
+      "latest_year": 2025,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Sunarso J",
+      "joint_papers": 5,
+      "latest_year": 2024,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Rajavelu H",
+      "joint_papers": 5,
+      "latest_year": 2022,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Chandra M",
+      "joint_papers": 4,
+      "latest_year": 2023,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Shiva N",
+      "joint_papers": 3,
+      "latest_year": 2025,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Bhatt AI",
+      "joint_papers": 3,
+      "latest_year": 2022,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Kapoor A",
+      "joint_papers": 3,
+      "latest_year": 2022,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Kumar KS et al.",
+      "joint_papers": 2,
+      "latest_year": 2025,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Hafner A",
+      "joint_papers": 2,
+      "latest_year": 2024,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Sahu SK",
+      "joint_papers": 2,
+      "latest_year": 2024,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Jothilingam J",
+      "joint_papers": 2,
+      "latest_year": 2023,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Mukherjee A",
+      "joint_papers": 2,
+      "latest_year": 2023,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Karthikeyan R",
+      "joint_papers": 2,
+      "latest_year": 2023,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Sarma VS",
+      "joint_papers": 2,
+      "latest_year": 2023,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Kamaraj M",
+      "joint_papers": 2,
+      "latest_year": 2023,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Gopal VV",
+      "joint_papers": 2,
+      "latest_year": 2022,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Mainelis G",
+      "joint_papers": 2,
+      "latest_year": 2013,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Hu S",
+      "joint_papers": 2,
+      "latest_year": 2008,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "McFarland AR",
+      "joint_papers": 2,
+      "latest_year": 2008,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Phares DJ",
+      "joint_papers": 2,
+      "latest_year": 2005,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Kihm KD",
+      "joint_papers": 2,
+      "latest_year": 2005,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "McIntyre PM",
+      "joint_papers": 2,
+      "latest_year": 2005,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Modi N",
+      "joint_papers": 1,
+      "latest_year": 2026,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Raghunathan A",
+      "joint_papers": 1,
+      "latest_year": 2026,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Martin RK",
+      "joint_papers": 1,
+      "latest_year": 2026,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Neupane N",
+      "joint_papers": 1,
+      "latest_year": 2026,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Saranathan S",
+      "joint_papers": 1,
+      "latest_year": 2026,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Dananjaya V et al.",
+      "joint_papers": 1,
+      "latest_year": 2026,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Nanjundan AK",
+      "joint_papers": 1,
+      "latest_year": 2026,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Waiyaki P",
+      "joint_papers": 1,
+      "latest_year": 2025,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Thekkethil R",
+      "joint_papers": 1,
+      "latest_year": 2025,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Ananthakumar M",
+      "joint_papers": 1,
+      "latest_year": 2025,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Jothimani D et al.",
+      "joint_papers": 1,
+      "latest_year": 2025,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Sanyal S et al.",
+      "joint_papers": 1,
+      "latest_year": 2024,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Selvaraj R",
+      "joint_papers": 1,
+      "latest_year": 2024,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Nagendra SS",
+      "joint_papers": 1,
+      "latest_year": 2024,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Koushik AV",
+      "joint_papers": 1,
+      "latest_year": 2024,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Sankaralingam RK et al.",
+      "joint_papers": 1,
+      "latest_year": 2024,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Neupane N et al.",
+      "joint_papers": 1,
+      "latest_year": 2024,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Kanakasabapathi D",
+      "joint_papers": 1,
+      "latest_year": 2024,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Bansal S",
+      "joint_papers": 1,
+      "latest_year": 2024,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Nivash M",
+      "joint_papers": 1,
+      "latest_year": 2024,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Koundinya S et al.",
+      "joint_papers": 1,
+      "latest_year": 2024,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Dhanavardhan M et al.",
+      "joint_papers": 1,
+      "latest_year": 2024,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Ravuthan M",
+      "joint_papers": 1,
+      "latest_year": 2024,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Martin SR",
+      "joint_papers": 1,
+      "latest_year": 2023,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Kafayat AK",
+      "joint_papers": 1,
+      "latest_year": 2023,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Singh HP",
+      "joint_papers": 1,
+      "latest_year": 2023,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Subburai G",
+      "joint_papers": 1,
+      "latest_year": 2022,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Emmanuel A",
+      "joint_papers": 1,
+      "latest_year": 2022,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Devi RG",
+      "joint_papers": 1,
+      "latest_year": 2021,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Michelassi V",
+      "joint_papers": 1,
+      "latest_year": 2021,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Bhat A",
+      "joint_papers": 1,
+      "latest_year": 2021,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Dogra V",
+      "joint_papers": 1,
+      "latest_year": 2020,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Mallik AK",
+      "joint_papers": 1,
+      "latest_year": 2020,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Sarma TP",
+      "joint_papers": 1,
+      "latest_year": 2020,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Roy A",
+      "joint_papers": 1,
+      "latest_year": 2020,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Panchagnula MV",
+      "joint_papers": 1,
+      "latest_year": 2020,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Balachandran A",
+      "joint_papers": 1,
+      "latest_year": 2020,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Singh S",
+      "joint_papers": 1,
+      "latest_year": 2020,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Banasiak K",
+      "joint_papers": 1,
+      "latest_year": 2020,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Maiya P et al.",
+      "joint_papers": 1,
+      "latest_year": 2020,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Hemalaxmi R",
+      "joint_papers": 1,
+      "latest_year": 2018,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Aparna N",
+      "joint_papers": 1,
+      "latest_year": 2018,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Chatterjee A",
+      "joint_papers": 1,
+      "latest_year": 2011,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Bernal E",
+      "joint_papers": 1,
+      "latest_year": 2011,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Han T",
+      "joint_papers": 1,
+      "latest_year": 2009,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Krumins V",
+      "joint_papers": 1,
+      "latest_year": 2009,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Fennell DE",
+      "joint_papers": 1,
+      "latest_year": 2009,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Hari S",
+      "joint_papers": 1,
+      "latest_year": 2008,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "McFarland A",
+      "joint_papers": 1,
+      "latest_year": 2007,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "McIntyre P",
+      "joint_papers": 1,
+      "latest_year": 2007,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Kim T",
+      "joint_papers": 1,
+      "latest_year": 2005,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Smith DD",
+      "joint_papers": 1,
+      "latest_year": 2005,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Kim TK",
+      "joint_papers": 1,
+      "latest_year": 2004,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Singh P",
+      "joint_papers": 1,
+      "latest_year": null,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Srikanti K",
+      "joint_papers": 1,
+      "latest_year": null,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    },
+    {
+      "name": "Gopalan R",
+      "joint_papers": 1,
+      "latest_year": null,
+      "institution": "",
+      "orcid": "",
+      "openalex": "",
+      "link_override": ""
+    }
+  ]
+}

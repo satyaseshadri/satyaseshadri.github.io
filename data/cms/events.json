@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "Carbon Neutral Workshop",
+    "Role": "Organizer",
+    "Date": "2022",
+    "Location": "IIT Madras",
+    "Description": "(example — edit or delete)",
+    "Link": "",
+    "Show": "Yes"
+  },
+  {
+    "Name": "Workshop on Energy Storage",
+    "Role": "Chair",
+    "Date": "2021",
+    "Location": "IIT Madras",
+    "Description": "",
+    "Link": "",
+    "Show": "Yes"
+  }
+]

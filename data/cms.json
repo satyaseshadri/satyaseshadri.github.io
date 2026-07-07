@@ -1,0 +1,21 @@
+{
+  "provider": "Google Sheets",
+  "spreadsheet_id": "1Ph54Tnrtxwc4BQvRumOlPjvv2l3NS8mYXA2kGGqIzxs",
+  "spreadsheet_note": "CMS v2: paste the ID of the single consolidated spreadsheet here (from its URL). Tabs are read by name via the gviz CSV endpoint. Requires 'Anyone with the link: Viewer'. When set, this takes precedence over the legacy per-file 'sheets' map below.",
+  "gviz_pattern": "https://docs.google.com/spreadsheets/d/{id}/gviz/tq?tqx=out:csv&sheet={tab}",
+  "folder_id": "14_I8eWydYGs1CVoI6jabtuoR4VFVJqCZ",
+  "folder_url": "https://drive.google.com/drive/folders/14_I8eWydYGs1CVoI6jabtuoR4VFVJqCZ",
+  "sharing_required": "Set the folder to 'Anyone with the link: Viewer' so the site can read the sheets.",
+  "csv_url_pattern": "https://docs.google.com/spreadsheets/d/{id}/export?format=csv",
+  "sheets": {
+    "publications": "1Fl6J0RY0qLp2Z-JMpnfTKYG3wWfFTbm_XUBSE9W3M9E",
+    "patents": "1krJPqbRpDx8HzHsMHAmiW428mUxGTfPFhHXJ1R-irnw",
+    "consultancy": "19V-t02-8GWxWd0PqNXtWb1Y29CRfbJugtOQNx99X1Fk",
+    "talks": "1d7GxJqt6DLTDhtNQuEMFEPjl9CF0Ap_uZgCTtyqCj7s",
+    "visits": "1WJdtkP4QaIUshDJNWO912BHDfZvyHEkaRK3WOfFEZXY",
+    "events": "1aV5Qa92AV9u7d6Q3-nITte-LMJfOsvWfEftXfNbNoIQ",
+    "students": "1Ws4EP9ODY_0TobWX1J5fdRfYqCwv1RF-hyD8uy2hC2M",
+    "teaching": "1leGYHXakt7iQ17e6QPhBNm_xia4LhWQ77h807fgv6gU",
+    "news": "1MbpKpavH5c_sDERoFfAHLtSRkRQluUVbJevqOrZRjaA"
+  }
+}

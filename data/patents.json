@@ -1,0 +1,159 @@
+{
+  "count": 12,
+  "patents": [
+    {
+      "inventors": [
+        "Vasa NJ",
+        "Seshadri S"
+      ],
+      "title": "A material processing system and method thereof",
+      "number": "PCT WO/2022/195623",
+      "year": 2022,
+      "assignee": "IIT Madras",
+      "ptype": "International (PCT)",
+      "status": "Filed",
+      "theme": "Material Processing"
+    },
+    {
+      "inventors": [
+        "Venugopal V",
+        "Seshadri S"
+      ],
+      "title": "System for controlling admission volume of inlet gas for fixed RPM operation of rotary or reciprocating expander",
+      "number": "US 11,448,073; PCT WO/2020/075182; EP3847359",
+      "year": 2022,
+      "assignee": "IIT Madras",
+      "ptype": "International (US/PCT/EP)",
+      "status": "Granted",
+      "theme": "Steam Wankel"
+    },
+    {
+      "inventors": [
+        "Seshadri S"
+      ],
+      "title": "Two stage regenerative ORC heat recovery based power generation system",
+      "number": "PCT WO/2021/171312",
+      "year": 2021,
+      "assignee": "IIT Madras",
+      "ptype": "International (PCT)",
+      "status": "Filed",
+      "theme": "ORC / Waste Heat"
+    },
+    {
+      "inventors": [
+        "Seshadri S"
+      ],
+      "title": "Online device to measure fly ash particulate optically in industrial stack emissions independent of moisture",
+      "number": "PCT WO/2020/148776",
+      "year": 2020,
+      "assignee": "IIT Madras",
+      "ptype": "International (PCT)",
+      "status": "Filed",
+      "theme": "Emission Diagnostics"
+    },
+    {
+      "inventors": [
+        "Sundararajan G",
+        "Baller MK",
+        "Addepalli S",
+        "Seshadri S et al."
+      ],
+      "title": "Method for manufacturing fluid handling discs with porous mesh plates for ultrasonic mesh nebulizers",
+      "number": "US 9,303,330",
+      "year": 2016,
+      "assignee": "General Electric Co",
+      "ptype": "International (US)",
+      "status": "Granted",
+      "theme": "Pre-IITM (GE)"
+    },
+    {
+      "inventors": [
+        "Mainelis G",
+        "Han T",
+        "Seshadri S"
+      ],
+      "title": "Electrostatic screen device and method for emission control",
+      "number": "US 8,721,767",
+      "year": 2014,
+      "assignee": "Rutgers State University",
+      "ptype": "International (US)",
+      "status": "Granted",
+      "theme": "Pre-IITM (Rutgers)"
+    },
+    {
+      "inventors": [
+        "Venugopal V",
+        "Seshadri S"
+      ],
+      "title": "Controlling admission volume of inlet gas for fixed RPM operation of Rotary or Reciprocating expander",
+      "number": "IN 507179",
+      "year": 2024,
+      "assignee": "IIT Madras (IP Metrix)",
+      "ptype": "National (India)",
+      "status": "Granted",
+      "theme": "Steam Wankel"
+    },
+    {
+      "inventors": [
+        "Vasa NJ",
+        "Seshadri S"
+      ],
+      "title": "A material processing system and method thereof",
+      "number": "IN 531722",
+      "year": 2024,
+      "assignee": "IIT Madras (E diplis)",
+      "ptype": "National (India)",
+      "status": "Granted",
+      "theme": "Material Processing"
+    },
+    {
+      "inventors": [
+        "Seshadri S"
+      ],
+      "title": "Two stage regenerative ORC heat recovery based power generation system",
+      "number": "IN 489298",
+      "year": 2023,
+      "assignee": "IIT Madras (IP Metrix)",
+      "ptype": "National (India)",
+      "status": "Granted",
+      "theme": "ORC / Waste Heat"
+    },
+    {
+      "inventors": [
+        "Seshadri S"
+      ],
+      "title": "System and method for compressed air recuperated energy storage",
+      "number": "IN 476555",
+      "year": 2023,
+      "assignee": "IIT Madras (IPMatrix)",
+      "ptype": "National (India)",
+      "status": "Granted",
+      "theme": "Energy Storage"
+    },
+    {
+      "inventors": [
+        "Seshadri S"
+      ],
+      "title": "Online device to measure fly ash particulate optically in industrial stack emissions independent of moisture",
+      "number": "IN 389506",
+      "year": 2022,
+      "assignee": "IIT Madras (IP Dome)",
+      "ptype": "National (India)",
+      "status": "Granted",
+      "theme": "Emission Diagnostics"
+    },
+    {
+      "inventors": [
+        "Seshadri S",
+        "McFarland AR et al."
+      ],
+      "title": "Virtual impactor / aerosol fractionation technology",
+      "number": "US 8,104,362",
+      "year": 2012,
+      "assignee": "Texas A&M University",
+      "ptype": "International (US)",
+      "status": "Granted",
+      "theme": "Pre-IITM (Texas A&M)"
+    }
+  ]
+}

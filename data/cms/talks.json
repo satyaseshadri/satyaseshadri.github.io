@@ -1,0 +1,29 @@
+[
+  {
+    "Title": "Enhancing Energy Efficiency",
+    "Event": "EnVision 2022",
+    "Location": "",
+    "Date": "2022",
+    "Type": "Invited",
+    "Link": "https://www.youtube.com/watch?v=3seKkNFSxc4",
+    "Show": "Yes"
+  },
+  {
+    "Title": "[Talk title]",
+    "Event": "AARDO Talk",
+    "Location": "New Delhi",
+    "Date": "2023",
+    "Type": "Invited",
+    "Link": "",
+    "Show": "Yes"
+  },
+  {
+    "Title": "[Talk title]",
+    "Event": "Vaibhav Summit",
+    "Location": "",
+    "Date": "2020",
+    "Type": "Panel",
+    "Link": "",
+    "Show": "Yes"
+  }
+]

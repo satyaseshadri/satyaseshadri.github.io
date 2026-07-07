@@ -1,0 +1,20 @@
+[
+  {
+    "Host / Institution": "TU Darmstadt",
+    "Location": "Germany",
+    "Purpose": "Research collaboration (spray & thermal management)",
+    "Period": "2023",
+    "Type": "Academic visit",
+    "Link": "",
+    "Show": "Yes"
+  },
+  {
+    "Host / Institution": "[Institution]",
+    "Location": "[Country]",
+    "Purpose": "[Purpose]",
+    "Period": "2025",
+    "Type": "Academic visit",
+    "Link": "",
+    "Show": "Yes"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "name": "Satyanarayanan Seshadri",
+  "affiliation": "IIT Madras",
+  "google_scholar_id": "trCkcp4AAAAJ",
+  "google_scholar_url": "https://scholar.google.com/citations?user=trCkcp4AAAAJ&hl=en",
+  "orcid": "0000-0002-4851-302X",
+  "openalex_author_id": "A5009732639",
+  "linkedin": "https://www.linkedin.com/in/satyaseshadri",
+  "refresh_cadence": "daily (GitHub Action cron)",
+  "last_seeded_from": "Master_Publications_List.xlsx",
+  "orcid_url": "https://orcid.org/0000-0002-4851-302X",
+  "openalex_warning": "CAUTION: OpenAlex author A5009732639 conflates this profile with S.K. Seshadri (IIT Madras, metallurgy) - 166 works / h-38 vs actual ~74 works / h-13. Do NOT enable the auto-refresh until the OpenAlex record is disambiguated (request a correction at support.openalex.org or filter works by concept/affiliation in refresh_data.py)."
+}

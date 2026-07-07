@@ -1,0 +1,25 @@
+{
+ "note": "Shown on Impact page. Override/extend via a 'Testimonials' tab (Client, Sector, Quote, Show) in the CMS spreadsheet.",
+ "testimonials": [
+  {
+   "client": "VE Commercial Vehicles Ltd. (Volvo Group\u2013Eicher Motors JV)",
+   "sector": "Automotive",
+   "quote": "The team of experts did an excellent job through their systematic and meticulous approach, and could successfully pinpoint potential energy saving opportunities in our plant. We look forward to our continued long-term relationship for achieving our common endeavour of energy conservation."
+  },
+  {
+   "client": "Tata Consumer Products \u2014 Himalayan Plant",
+   "sector": "FMCG",
+   "quote": "A detailed energy assessment covering all electrical and thermal energy-consuming areas \u2014 boilers and steam systems, chilled water, solar PV, compressed air \u2014 through exhaustive surveys, real-time measurements and analysis."
+  },
+  {
+   "client": "Wonderla Holidays Ltd.",
+   "sector": "Hospitality",
+   "quote": "The work covered all electrical and thermal energy-consuming areas of the facility through exhaustive data collection, surveys, real-time measurements and analysis."
+  },
+  {
+   "client": "Gangwal Flour Foods LLP",
+   "sector": "FMCG",
+   "quote": "The team did an excellent job through their systematic and meticulous approach, and could successfully pinpoint potential energy saving opportunities in our plant."
+  }
+ ]
+}

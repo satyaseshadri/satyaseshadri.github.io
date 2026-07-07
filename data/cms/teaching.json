@@ -1,0 +1,29 @@
+[
+  {
+    "Course Code": "AM5018",
+    "Course Name": "Applied Statistics & Data Analysis",
+    "Level": "PG",
+    "Term / Year": "2021–",
+    "Role": "Instructor",
+    "Description": "(example — edit or delete)",
+    "Show": "Yes"
+  },
+  {
+    "Course Code": "ID5200",
+    "Course Name": "Entrepreneurship",
+    "Level": "PG",
+    "Term / Year": "2022–",
+    "Role": "Instructor",
+    "Description": "",
+    "Show": "Yes"
+  },
+  {
+    "Course Code": "[Code]",
+    "Course Name": "[Course name]",
+    "Level": "UG/PG",
+    "Term / Year": "2025",
+    "Role": "Instructor",
+    "Description": "",
+    "Show": "Yes"
+  }
+]
