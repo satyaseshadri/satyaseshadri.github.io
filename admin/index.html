@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Site Studio — website admin</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<style>
+:root { --red:#7a1f2b; --ink:#1c1e21; --soft:#5c6166; --line:#e2e4e7; --bg:#f6f7f8; --ok:#1a7f37; --warn:#b35900; }
+* { box-sizing:border-box; }
+body { margin:0; font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Arial,sans-serif; color:var(--ink); background:var(--bg); }
+header { background:#fff; border-bottom:1px solid var(--line); padding:.7rem 1.2rem; display:flex; align-items:center; gap:1rem; position:sticky; top:0; z-index:20; }
+header h1 { font-size:1.05rem; margin:0; } header h1 span { color:var(--red); }
+header .status { font-size:.8rem; color:var(--soft); }
+header .spacer { flex:1; }
+button { font:inherit; cursor:pointer; border-radius:5px; border:1px solid var(--line); background:#fff; padding:.4rem .9rem; }
+button:hover { border-color:var(--red); color:var(--red); }
+button.primary { background:var(--red); border-color:var(--red); color:#fff; font-weight:600; }
+button.primary:hover { background:#5e1520; color:#fff; }
+button.danger:hover { border-color:#c00; color:#c00; }
+button:disabled { opacity:.45; cursor:not-allowed; }
+.layout { display:grid; grid-template-columns:230px 1fr; min-height:calc(100vh - 54px); }
+nav.side { background:#fff; border-right:1px solid var(--line); padding:1rem .8rem; }
+nav.side h2 { font-size:.7rem; text-transform:uppercase; letter-spacing:.1em; color:var(--soft); margin:.9rem .4rem .3rem; }
+nav.side a { display:block; padding:.34rem .6rem; border-radius:5px; color:var(--ink); text-decoration:none; font-size:.92rem; }
+nav.side a:hover { background:var(--bg); }
+nav.side a.active { background:var(--red); color:#fff; }
+main { padding:1.4rem 1.6rem; overflow-x:auto; }
+.toolbar { display:flex; gap:.6rem; align-items:center; margin-bottom:1rem; flex-wrap:wrap; }
+.toolbar .hint { font-size:.8rem; color:var(--soft); }
+table.grid { border-collapse:collapse; background:#fff; width:100%; font-size:.88rem; }
+table.grid th { background:#eef0f2; border:1px solid var(--line); padding:.4rem .6rem; text-align:left; font-size:.74rem; text-transform:uppercase; letter-spacing:.06em; color:var(--soft); position:sticky; top:54px; }
+table.grid td { border:1px solid var(--line); padding:0; vertical-align:top; min-width:90px; }
+table.grid td .cell { padding:.4rem .6rem; min-height:1.4em; white-space:pre-wrap; outline:none; }
+table.grid td .cell:focus { background:#fff8e6; box-shadow:inset 0 0 0 2px var(--red); }
+table.grid td.dirty .cell { background:#fff3d6; }
+table.grid td.rowctl { min-width:0; white-space:nowrap; padding:.3rem .4rem; background:#fafbfc; }
+.pill { display:inline-block; font-size:.72rem; font-weight:700; padding:.1rem .55rem; border-radius:99px; cursor:pointer; user-select:none; }
+.pill.on { background:#d8f2df; color:var(--ok); } .pill.off { background:#f4d8d8; color:#a12626; }
+.rowbtn { border:0; background:none; padding:.15rem .3rem; font-size:.85rem; color:var(--soft); }
+.rowbtn:hover { color:#c00; border:0; }
+.msg { padding:.7rem 1rem; border-radius:6px; margin:.8rem 0; font-size:.9rem; }
+.msg.ok { background:#e6f4ea; color:var(--ok); } .msg.warn { background:#fff3e0; color:var(--warn); } .msg.err { background:#fdecea; color:#a12626; }
+.card { background:#fff; border:1px solid var(--line); border-radius:8px; padding:1.2rem 1.4rem; margin-bottom:1rem; max-width:860px; }
+.card h3 { margin:.1rem 0 .5rem; }
+.content-item { background:#fff; border:1px solid var(--line); border-radius:8px; padding:1rem 1.2rem; margin-bottom:.8rem; max-width:860px; }
+.content-item .key { font-weight:700; font-size:.85rem; } .content-item .where { color:var(--soft); font-size:.78rem; margin-left:.5rem; }
+.content-item textarea { width:100%; min-height:70px; font:inherit; font-size:.9rem; margin-top:.5rem; border:1px solid var(--line); border-radius:5px; padding:.5rem .7rem; }
+.content-item textarea:focus { border-color:var(--red); outline:none; }
+.content-item .row { display:flex; gap:.6rem; align-items:center; margin-top:.5rem; }
+.formgrid { display:grid; grid-template-columns:140px 1fr; gap:.6rem .8rem; align-items:center; max-width:640px; }
+.formgrid input, .formgrid select { font:inherit; padding:.4rem .6rem; border:1px solid var(--line); border-radius:5px; }
+.savebar { position:fixed; bottom:0; left:230px; right:0; background:#fff; border-top:1px solid var(--line); padding:.6rem 1.6rem; display:none; gap:.8rem; align-items:center; z-index:30; }
+.savebar.show { display:flex; }
+@media (max-width:820px){ .layout{grid-template-columns:1fr} nav.side{display:flex;flex-wrap:wrap;gap:.2rem;border-right:0;border-bottom:1px solid var(--line)} nav.side h2{display:none} .savebar{left:0} }
+</style>
+</head>
+<body>
+<header>
+  <h1>Site <span>Studio</span></h1>
+  <span class="status" id="status">loading…</span>
+  <span class="spacer"></span>
+  <a href="../index.html" target="_blank" style="font-size:.85rem">View site ↗</a>
+  <a href="../v2/index.html" target="_blank" style="font-size:.85rem">View v2 ↗</a>
+  <button class="primary" id="auth-btn" hidden>Sign in with Google</button>
+</header>
+<div class="layout">
+  <nav class="side" id="side"></nav>
+  <main id="main"><p>Loading…</p></main>
+</div>
+<div class="savebar" id="savebar">
+  <span id="save-count"></span>
+  <button class="primary" id="save-btn">Save changes</button>
+  <button id="discard-btn">Discard</button>
+</div>
+<script src="config.js"></script>
+<script src="app.js"></script>
+<script src="https://accounts.google.com/gsi/client" async defer onload="window.__gisReady && window.__gisReady()"></script>
+</body>
+</html>
