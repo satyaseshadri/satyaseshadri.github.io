@@ -53,6 +53,14 @@
     return d;
   }
 
+  /* ---------------- known optional tabs (creatable from Studio) ---------------- */
+  const KNOWN_TABS = {
+    "Sponsors":     { headers: ["Name", "Type", "Domain", "Details", "Link", "Show"], seed: "../data/sponsors.json", seedKey: "sponsors", map: s => [s.name, s.type, s.domain, s.details, s.link, "Yes"] },
+    "Testimonials": { headers: ["Client", "Sector", "Quote", "Show"], seed: "../data/testimonials.json", seedKey: "testimonials", map: t => [t.client, t.sector, t.quote, "Yes"] },
+    "Research":     { headers: ["Theme", "Blurb", "Page", "Order", "Show"] },
+    "_Links":       { headers: ["Name", "URL", "Type"] },
+  };
+
   /* ---------------- data loading ---------------- */
   function parseCSV(text) {
     const rows = []; let row = [], f = "", q = false;
@@ -72,21 +80,39 @@
     if (token) {
       const d = await api("?fields=sheets(properties(sheetId,title,index))");
       sheetsMeta = d.sheets.map(s => s.properties).sort((a, b) => a.index - b.index);
+      Object.keys(KNOWN_TABS).forEach(t => {
+        if (!t.startsWith("_") && !sheetsMeta.find(s => s.title === t)) sheetsMeta.push({ title: t, sheetId: null, creatable: true });
+      });
     } else {
       // read-only: we can't enumerate tabs without auth; use the known set + _Pages
       sheetsMeta = ["Publications","Patents","Consultancy","Talks","Visits","Events","Students","Teaching","News","Research","Sponsors","_Pages","_Content","_Assets","_Links"].map(t => ({ title: t, sheetId: null }));
     }
   }
 
+  let firstTabSig = null;
   async function loadTab(title) {
     if (token) {
+      if (!sheetsMeta.find(s => s.title === title)) return { missing: true, header: [], rows: [] };
       const d = await api("/values/" + encodeURIComponent("'" + title + "'!A1:AZ1000"));
       const v = d.values || [];
       return { header: v[0] || [], rows: v.slice(1) };
     }
+    if (firstTabSig === null) {
+      const r0 = await fetch("https://docs.google.com/spreadsheets/d/" + SID + "/gviz/tq?tqx=out:csv");
+      const rows0 = parseCSV(await r0.text());
+      firstTabSig = { sig: (rows0[0] || []).join("|"), title: null };
+    }
     const r = await fetch("https://docs.google.com/spreadsheets/d/" + SID + "/gviz/tq?tqx=out:csv&sheet=" + encodeURIComponent(title));
     const rows = parseCSV(await r.text());
-    return { header: rows[0] || [], rows: rows.slice(1) };
+    const header = rows[0] || [];
+    // Google returns the FIRST tab when the named tab doesn't exist — detect that
+    if (header.join("|") === firstTabSig.sig && title !== "Publications") {
+      if (firstTabSig.title === null) firstTabSig.title = title; // first caller matching sig might BE the first tab
+      else if (firstTabSig.title !== title) return { missing: true, header: [], rows: [] };
+      // ambiguous: treat any non-Publications tab matching the Publications-like signature as missing
+      if ((header[0] || "") === "Type" && header.includes("Venue")) return { missing: true, header: [], rows: [] };
+    }
+    return { header, rows: rows.slice(1) };
   }
 
   /* ---------------- sidebar / routing ---------------- */
@@ -122,6 +148,35 @@
     current = title; dirty = {}; updateSavebar();
     $("#main").innerHTML = "<p>Loading “" + esc(title) + "”…</p>";
     try { grid = await loadTab(title); } catch (e) { $("#main").innerHTML = "<div class='msg err'>Could not load: " + esc(e.message) + "</div>"; return; }
+    if (grid.missing) {
+      const known = KNOWN_TABS[title];
+      $("#main").innerHTML = `
+        <div class="toolbar"><h2 style="margin:0;font-size:1.2rem">${esc(title)}</h2></div>
+        <div class="msg warn">This tab doesn't exist in the spreadsheet yet${known ? "" : " — create it in Google Sheets"}.</div>
+        ${known ? `<div class="card"><h3>Create the “${esc(title)}” tab</h3>
+          <p style="font-size:.9rem;color:var(--soft)">Creates the tab with the right columns${known.seed ? " and fills it with the site's current data so you can edit from here" : ""}.</p>
+          <button class="primary" id="create-known" ${token ? "" : "disabled"}>Create tab${known.seed ? " with current data" : ""}</button>
+          ${token ? "" : "<p class='hint' style='font-size:.8rem;color:var(--soft)'>Sign in to create it.</p>"}</div>` : ""}`;
+      const btn = $("#create-known");
+      if (btn) btn.onclick = async () => {
+        try {
+          const add = await api(":batchUpdate", { method: "POST", body: JSON.stringify({ requests: [{ addSheet: { properties: { title } } }] }) });
+          const values = [known.headers];
+          if (known.seed) {
+            try {
+              const d = await (await fetch(known.seed)).json();
+              (d[known.seedKey] || []).forEach(x => values.push(known.map(x)));
+            } catch (e) {}
+          }
+          await api("/values/" + encodeURIComponent("'" + title + "'!A1") + "?valueInputOption=USER_ENTERED",
+            { method: "PUT", body: JSON.stringify({ values }) });
+          sheetsMeta = sheetsMeta.filter(s => s.title !== title);
+          sheetsMeta.push({ title, sheetId: add.replies[0].addSheet.properties.sheetId });
+          renderSide(); msg("ok", "Tab created."); showTab(title);
+        } catch (e) { msg("err", e.message); }
+      };
+      return;
+    }
     const canEdit = !!token;
     const showCol = grid.header.findIndex(c => c.trim().toLowerCase() === "show");
     const note = title === "Publications"
