@@ -1,0 +1,11 @@
+{
+ "note": "Items needing your decision \u2014 shown in Site Studio's Review queue. Choices are saved to the _Links tab of the CMS sheet.",
+ "items": [
+  {
+   "type": "venture",
+   "name": "EnergyEta",
+   "note": "Official website not found \u2014 energyeta.com is a parked domain. Paste the correct URL if one exists.",
+   "candidates": []
+  }
+ ]
+}

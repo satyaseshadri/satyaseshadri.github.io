@@ -74,7 +74,7 @@
       sheetsMeta = d.sheets.map(s => s.properties).sort((a, b) => a.index - b.index);
     } else {
       // read-only: we can't enumerate tabs without auth; use the known set + _Pages
-      sheetsMeta = ["Publications","Patents","Consultancy","Talks","Visits","Events","Students","Teaching","News","Research","_Pages","_Content","_Assets"].map(t => ({ title: t, sheetId: null }));
+      sheetsMeta = ["Publications","Patents","Consultancy","Talks","Visits","Events","Students","Teaching","News","Research","Sponsors","_Pages","_Content","_Assets","_Links"].map(t => ({ title: t, sheetId: null }));
     }
   }
 
@@ -100,6 +100,7 @@
       `<a href="#view=content" data-view="content">Text & blurbs</a>` +
       `<a href="#view=pages" data-view="pages">Pages</a>` +
       `<a href="#view=assets" data-view="assets">Images</a>` +
+      `<a href="#view=review" data-view="review">Review queue</a>` +
       "<h2>Help</h2><a href='SETUP.md' target='_blank'>Setup guide ↗</a>";
     document.querySelectorAll("#side a[data-view]").forEach(a => a.addEventListener("click", e => {
       document.querySelectorAll("#side a").forEach(x => x.classList.remove("active"));
@@ -239,6 +240,7 @@
     if (view === "content") return showContent();
     if (view === "pages") return showPages();
     if (view === "assets") return showAssets();
+    if (view === "review") return showReview();
   }
 
   async function showContent() {
@@ -253,8 +255,19 @@
       <div class="content-item">
         <span class="key">${esc(r[iK])}</span><span class="where">${esc(r[iW] || "")}</span>
         <textarea data-row="${i}">${esc(r[iV] || "")}</textarea>
-        <div class="row"><button class="primary save-one" data-row="${i}" ${token ? "" : "disabled"}>Save</button></div>
+        <div class="row"><button class="primary save-one" data-row="${i}" ${token ? "" : "disabled"}>Save</button>
+        <button class="link-one" data-row="${i}">Insert link</button>
+        <span style="font-size:.75rem;color:var(--soft)">Select text first, then Insert link. HTML like &lt;b&gt; and &lt;a href&gt; is allowed.</span></div>
       </div>`).join("");
+    document.querySelectorAll(".link-one").forEach(b => b.addEventListener("click", () => {
+      const ta = document.querySelector(`textarea[data-row="${b.dataset.row}"]`);
+      const url = prompt("Link URL (https://…):", "https://");
+      if (!url || url === "https://") return;
+      const s = ta.selectionStart, e = ta.selectionEnd;
+      const sel = ta.value.slice(s, e) || prompt("Link text:", "") || url;
+      ta.value = ta.value.slice(0, s) + '<a href="' + url + '" rel="noopener">' + sel + "</a>" + ta.value.slice(e);
+      ta.focus();
+    }));
     document.querySelectorAll(".save-one").forEach(b => b.addEventListener("click", async () => {
       const i = +b.dataset.row;
       const v = document.querySelector(`textarea[data-row="${i}"]`).value;
@@ -360,6 +373,63 @@
       try { current = "_Assets"; await writeCell(i, iF, v); current = null; msg("ok", "Saved."); }
       catch (e) { msg("err", e.message); }
     }));
+  }
+
+  /* ---------------- review queue ---------------- */
+  async function ensureLinksTab() {
+    if (!sheetsMeta.find(s => s.title === "_Links")) {
+      const add = await api(":batchUpdate", { method: "POST", body: JSON.stringify({ requests: [{ addSheet: { properties: { title: "_Links" } } }] }) });
+      await api("/values/" + encodeURIComponent("'_Links'!A1") + "?valueInputOption=USER_ENTERED",
+        { method: "PUT", body: JSON.stringify({ values: [["Name", "URL", "Type"]] }) });
+      sheetsMeta.push({ title: "_Links", sheetId: add.replies[0].addSheet.properties.sheetId });
+      renderSide();
+    }
+  }
+  async function saveLink(name, url, type) {
+    await ensureLinksTab();
+    await api("/values/" + encodeURIComponent("'_Links'!A1") + ":append?valueInputOption=USER_ENTERED",
+      { method: "POST", body: JSON.stringify({ values: [[name, url, type]] }) });
+  }
+  async function showReview() {
+    $("#main").innerHTML = "<p>Loading review queue…</p>";
+    let data = null;
+    try { const r = await fetch("../data/review.json?t=" + Date.now()); data = await r.json(); } catch (e) {}
+    const items = (data && data.items) || [];
+    // already-resolved names (in _Links) drop out of the queue
+    let resolved = {};
+    try { const rows = await loadTab("_Links"); const iN = rows.header.indexOf("Name");
+      rows.rows.forEach(r => { if (r[iN]) resolved[r[iN].trim().toLowerCase()] = true; }); } catch (e) {}
+    const open = items.filter(it => !resolved[it.name.trim().toLowerCase()]);
+    $("#main").innerHTML = `
+      <div class="toolbar"><h2 style="margin:0;font-size:1.2rem">Review queue</h2>
+      <span class="hint">Ambiguous or missing links found during enrichment. Pick the right one — it's saved to the _Links tab and used by the site.</span></div>
+      <div id="review-list"></div>`;
+    if (!open.length) { $("#review-list").innerHTML = "<div class='msg ok'>Nothing to review 🎉</div>"; return; }
+    $("#review-list").innerHTML = open.map((it, i) => `
+      <div class="card">
+        <h3>${esc(it.name)} <span style="font-size:.75rem;color:var(--soft);font-weight:400">· ${esc(it.type)}</span></h3>
+        <p style="font-size:.88rem;color:var(--soft)">${esc(it.note || "")}</p>
+        ${(it.candidates || []).map((c, j) => `
+          <div style="display:flex;gap:.6rem;align-items:center;margin:.3rem 0">
+            <button class="pick" data-i="${i}" data-url="${esc(c.url)}" ${token ? "" : "disabled"}>Use this</button>
+            <a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.label || c.url)} ↗</a>
+          </div>`).join("")}
+        <div style="display:flex;gap:.6rem;margin-top:.6rem">
+          <input style="flex:1;font:inherit;padding:.4rem .6rem;border:1px solid var(--line);border-radius:5px" data-custom="${i}" placeholder="…or paste the correct URL">
+          <button class="pick-custom" data-i="${i}" ${token ? "" : "disabled"}>Save</button>
+          <button class="dismiss" data-i="${i}" ${token ? "" : "disabled"}>Not applicable</button>
+        </div>
+      </div>`).join("");
+    const doSave = async (i, url) => {
+      try { await saveLink(open[i].name, url, open[i].type); msg("ok", "Saved “" + open[i].name + "” — live within a few minutes."); showReview(); }
+      catch (e) { msg("err", e.message); }
+    };
+    document.querySelectorAll(".pick").forEach(b => b.addEventListener("click", () => doSave(+b.dataset.i, b.dataset.url)));
+    document.querySelectorAll(".pick-custom").forEach(b => b.addEventListener("click", () => {
+      const v = document.querySelector(`input[data-custom="${b.dataset.i}"]`).value.trim();
+      if (v) doSave(+b.dataset.i, v);
+    }));
+    document.querySelectorAll(".dismiss").forEach(b => b.addEventListener("click", () => doSave(+b.dataset.i, "-")));
   }
 
   /* ---------------- boot ---------------- */

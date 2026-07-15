@@ -170,6 +170,30 @@
   }
   applyCmsChrome();
 
+  /* ---------- shared: curated links (_Links tab: Name, URL, Type) ---------- */
+  let _linksCache = null;
+  async function getLinks() {
+    if (_linksCache !== null) return _linksCache;
+    const rows = await cmsTab("_Links", "URL");
+    _linksCache = {};
+    if (rows) rows.forEach(r => { if (r.Name && r.URL) _linksCache[r.Name.trim().toLowerCase()] = r.URL; });
+    return _linksCache;
+  }
+  /* ---------- shared: student/alumni name tokens (to exclude from collaborators) ---------- */
+  async function getStudentTokens() {
+    let names = [];
+    const sheet = await cmsFetch("students");
+    if (sheet && sheet.length) names = sheet.map(r => r.Name || "");
+    else {
+      const d = await loadJSON("../data/students.json");
+      if (d && d.students) names = d.students.map(s => s.name || "");
+    }
+    const toks = new Set();
+    names.forEach(n => String(n).toLowerCase().split(/[\s,.]+/).forEach(t => { if (t.length > 3) toks.add(t); }));
+    return toks;
+  }
+
+
   const esc = s => String(s == null ? "" : s)
     .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
@@ -193,7 +217,7 @@
       if (!box || !d || !d.publications) return;
       const latest = d.publications.filter(p => p.type === "journal")
         .sort((a, b) => (b.year || 0) - (a.year || 0)).slice(0, 4);
-      const isV2 = document.querySelector(".cards") !== null && box.classList.contains("cards");
+      const isV2 = box.classList.contains("cards");
       if (isV2) {
         box.innerHTML = latest.map(p => `
         <div class="cardv2"><div class="card-body"><p class="meta">${esc(p.venue)} · ${esc(p.year)}</p><h3><a href="publications.html">${esc(p.title)}</a></h3></div></div>`).join("");
@@ -423,51 +447,93 @@
       const box = document.getElementById("collab-grid");
       const d = await loadJSON("../data/collaborators.json");
       const ovRaw = (await loadJSON("../data/collaborators.overrides.json")) || {};
-      // accept either { "Name": "url", ... } or { collaborators: [{name, link_override}] }
       const ov = {};
       if (Array.isArray(ovRaw.collaborators)) ovRaw.collaborators.forEach(x => { if (x.link_override) ov[x.name] = x.link_override; });
       else Object.entries(ovRaw).forEach(([k, v]) => { if (typeof v === "string" && v) ov[k] = v; });
       if (!d || !d.collaborators) { box.innerHTML = "<p class='placeholder'>Collaborator data could not be loaded.</p>"; return; }
-      function renderAcademic() {
-        box.innerHTML = d.collaborators.map(c => {
-          const link = ov[c.name] || c.link_override || c.openalex || c.orcid || "";
-          const name = link ? `<a href="${esc(link)}" rel="noopener">${esc(c.name)}</a>` : esc(c.name);
-          return `<div class="person" id="${encodeURIComponent(c.name)}">
-            <div class="name">${name}</div>
-            <div class="pos">${esc(c.joint_papers)} joint paper${c.joint_papers === 1 ? "" : "s"} · latest ${esc(c.latest_year)}</div>
-            ${c.institution ? `<div class="pos">${esc(c.institution)}</div>` : ""}
-          </div>`;
-        }).join("");
+      const links = await getLinks();
+      const studentToks = await getStudentTokens();
+
+      function isStudent(name) {
+        // collaborator names look like "Vasa NJ" — compare surname-ish tokens against the roster
+        return String(name).toLowerCase().split(/[\s,.]+/).some(t => t.length > 3 && studentToks.has(t));
+      }
+
+      async function renderAcademic() {
+        const rows = d.collaborators.filter(c => !isStudent(c.name));
+        const removed = d.collaborators.length - rows.length;
+        box.innerHTML = `<div class="table-scroll"><table class="wikitable">
+          <tr><th>Collaborator</th><th>Joint papers</th><th>Latest</th><th>Institution / link</th></tr>` +
+          rows.map(c => {
+            const url = links[c.name.trim().toLowerCase()] || ov[c.name] || c.link_override || c.openalex || c.orcid || "";
+            const name = url ? `<a href="${esc(url)}" rel="noopener">${esc(c.name)}</a>` : esc(c.name);
+            return `<tr id="${encodeURIComponent(c.name)}"><td>${name}</td><td>${esc(c.joint_papers)}</td><td>${esc(c.latest_year)}</td><td>${esc(c.institution || "")}</td></tr>`;
+          }).join("") + "</table></div>" +
+          (removed ? `<p class="small muted">${removed} co-author${removed === 1 ? "" : "s"} who appear in the student/alumni roster are listed under <a href="people.html">People</a> instead.</p>` : "");
+        if (location.hash) {
+          const el = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+          if (el) el.scrollIntoView({ block: "center" });
+        }
       }
       async function renderIndustry() {
         box.innerHTML = "<p class='placeholder'>Loading industry partners…</p>";
         const rows = await cmsFetch("consultancy");
-        if (!rows || !rows.length) { box.innerHTML = "<p class='placeholder'>Industry partners are maintained in the website CMS (Consultancy sheet).</p>"; return; }
-        box.innerHTML = rows.filter(r => r.Client && !/example/i.test(r.Description || "")).map(r => `
+        if (!rows || !rows.length) { box.innerHTML = "<p class='placeholder'>Industry partners are maintained in the website CMS (Consultancy tab).</p>"; return; }
+        box.innerHTML = "<div class='people-grid'>" + rows.filter(r => r.Client && !/example/i.test(r.Description || "")).map(r => `
           <div class="person">
             <div class="name">${r.Link ? `<a href="${esc(r.Link)}" rel="noopener">${esc(r.Client)}</a>` : esc(r.Client)}</div>
             <div class="deg">${esc(r.Sector || "")}${r.Period ? " · " + esc(r.Period) : ""}</div>
             ${r["Project / Title"] ? `<div class="pos">${esc(r["Project / Title"])}</div>` : ""}
             ${r.Description ? `<div class="pos">${esc(r.Description)}</div>` : ""}
-          </div>`).join("") || "<p class='placeholder'>Add rows to the Consultancy sheet in the website CMS to list industry partners here.</p>";
+          </div>`).join("") + "</div>" || "<p class='placeholder'>Add rows to the Consultancy tab to list industry partners.</p>";
       }
       const note = document.getElementById("collab-note");
       document.querySelectorAll(".tab[data-collab]").forEach(t => t.addEventListener("click", () => {
         document.querySelectorAll(".tab[data-collab]").forEach(x => x.setAttribute("aria-selected", "false"));
         t.setAttribute("aria-selected", "true");
         if (t.dataset.collab === "industry") {
-          if (note) note.textContent = "Industry partners and consulting clients — managed from the Consultancy sheet in the website CMS.";
+          if (note) note.textContent = "Industry partners and consulting clients — managed from the Consultancy tab in the website CMS.";
           renderIndustry();
         } else {
-          if (note) note.textContent = "Co-authors across the group's publications, ranked by joint papers. Institutional links fill automatically from OpenAlex where available.";
+          if (note) note.textContent = "Co-authors across the group's publications, ranked by joint papers. Students and alumni are listed under People.";
           renderAcademic();
         }
       }));
       renderAcademic();
-      // scroll to hash target (from publication popovers)
-      if (location.hash) {
-        const el = document.getElementById(decodeURIComponent(location.hash.slice(1)));
-        if (el) { el.scrollIntoView({ block: "center" }); el.style.borderColor = "var(--maroon)"; }
+    })();
+  }
+
+  /* ---------- sponsors ---------- */
+  if (page === "sponsors") {
+    (async () => {
+      const box = document.getElementById("sponsor-grid");
+      let items = null;
+      const rows = await cmsTab("Sponsors", "Domain");
+      if (rows) items = rows.filter(r => r.Name && (r.Show || "").toLowerCase() !== "no")
+        .map(r => ({ name: r.Name, type: r.Type || "", domain: r.Domain || "", link: r.Link || "", details: r.Details || "" }));
+      if (!items || !items.length) {
+        const d = await loadJSON("../data/sponsors.json");
+        items = (d && d.sponsors) || [];
+      }
+      const isV2 = box.classList.contains("cards");
+      const logo = s => s.domain
+        ? `<img src="https://www.google.com/s2/favicons?domain=${encodeURIComponent(s.domain)}&sz=128" alt="" width="44" height="44" loading="lazy" style="border-radius:6px" onerror="this.remove()">`
+        : "";
+      if (isV2) {
+        box.innerHTML = items.map(s => `
+          <div class="cardv2"><div class="card-body">
+            <div style="display:flex;align-items:center;gap:.7rem;margin-bottom:.5rem">${logo(s)}<p class="meta" style="margin:0">${esc(s.type)}</p></div>
+            <h3>${s.link ? `<a href="${esc(s.link)}" rel="noopener">${esc(s.name)}</a>` : esc(s.name)}</h3>
+            <p>${esc(s.details)}</p>
+          </div></div>`).join("");
+      } else {
+        box.innerHTML = items.map(s => `
+          <div class="person" style="display:flex;gap:.8rem;align-items:flex-start">
+            ${logo(s)}
+            <div><div class="name">${s.link ? `<a href="${esc(s.link)}" rel="noopener">${esc(s.name)}</a>` : esc(s.name)}</div>
+            <div class="deg">${esc(s.type)}</div>
+            <div class="pos">${esc(s.details)}</div></div>
+          </div>`).join("");
       }
     })();
   }
@@ -517,6 +583,10 @@
           years: r.Years || "", thesis_title: r["Thesis / Project"] || r.Thesis || r["Thesis Title"] || "",
           current_position: r["Current Position"] || r.Position || "", link: r.Link || r.LinkedIn || ""
         })).filter(s => s.name);
+      }
+      {
+        const links = await getLinks();
+        students.forEach(s => { if (!s.link) s.link = links[String(s.name).trim().toLowerCase()] || ""; });
       }
       const grid = document.getElementById("people-grid");
       const tabs = document.querySelectorAll(".tab[data-status]");

@@ -1,0 +1,82 @@
+{
+ "note": "Sponsors & funders. Override via a 'Sponsors' tab (Name, Type, Domain, Details, Link, Show) in the CMS spreadsheet.",
+ "sponsors": [
+  {
+   "name": "Shell",
+   "type": "Chair & centre sponsor",
+   "domain": "shell.com",
+   "link": "https://www.shell.in",
+   "details": "Shell Chair Professorship and the Shell IITM Centre for Energy Research (SICER), 2023\u201328."
+  },
+  {
+   "name": "Kotak Mahindra Bank",
+   "type": "CSR partner",
+   "domain": "kotak.com",
+   "link": "https://www.kotak.com",
+   "details": "\u20b920 Cr + \u20b921 Cr CSR funding for KISEM \u2014 the Kotak IIT Madras Save Energy Mission."
+  },
+  {
+   "name": "Ministry of Education (IoE)",
+   "type": "Government",
+   "domain": "education.gov.in",
+   "link": "https://www.education.gov.in",
+   "details": "Institute of Eminence Centre of Excellence \u2014 The Energy Consortium (\u20b915 Cr)."
+  },
+  {
+   "name": "Department of Science & Technology",
+   "type": "Government",
+   "domain": "dst.gov.in",
+   "link": "https://dst.gov.in",
+   "details": "Wankel steam expander field deployment (\u20b92.04 Cr, 2021\u201324)."
+  },
+  {
+   "name": "Coal India Limited",
+   "type": "Industry",
+   "domain": "coalindia.in",
+   "link": "https://www.coalindia.in",
+   "details": "IIT Madras\u2013Coal India Centre for Sustainable Energy (launched October 2025)."
+  },
+  {
+   "name": "Hatsun Agro Product",
+   "type": "Industry",
+   "domain": "hap.in",
+   "link": "https://www.hap.in",
+   "details": "School of Sustainability (\u20b91.48 Cr)."
+  },
+  {
+   "name": "ARCI",
+   "type": "Government lab",
+   "domain": "arci.res.in",
+   "link": "https://www.arci.res.in",
+   "details": "AUSC high-temperature steam-oxidation test facility (\u20b90.91 Cr)."
+  },
+  {
+   "name": "Fuji Electric",
+   "type": "Industry",
+   "domain": "fujielectric.com",
+   "link": "https://www.fujielectric.com",
+   "details": "Optical steam-quality sensor development (\u20b90.60 Cr)."
+  },
+  {
+   "name": "Deloitte",
+   "type": "Industry",
+   "domain": "deloitte.com",
+   "link": "https://www.deloitte.com",
+   "details": "Floating Solar PV Centre of Excellence (\u20b90.45 Cr)."
+  },
+  {
+   "name": "Deakin University",
+   "type": "Academic",
+   "domain": "deakin.edu.au",
+   "link": "https://www.deakin.edu.au",
+   "details": "Deakin University\u2013IITM Research Academy (Faculty-in-charge)."
+  },
+  {
+   "name": "UNIDO / FLCTD",
+   "type": "Multilateral",
+   "domain": "unido.org",
+   "link": "https://www.unido.org",
+   "details": "FLCTD award 2022 for TrigenDC's industrial heating electrification."
+  }
+ ]
+}
