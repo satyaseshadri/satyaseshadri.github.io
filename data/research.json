@@ -1,0 +1,58 @@
+{
+ "themes": [
+  {
+   "theme": "Industrial decarbonisation",
+   "blurb": "High-temperature and steam-generation heat pumps for electrifying process heat \u2014 including India's first 120 \u00b0C industrial heat pump deployment.",
+   "page": "",
+   "order": 1
+  },
+  {
+   "theme": "Steam expanders and pressure recovery",
+   "blurb": "The patented Wankel expander converts wasted steam pressure-reduction into power \u2014 an estimated 20 GW opportunity in India.",
+   "page": "",
+   "order": 2
+  },
+  {
+   "theme": "ORC waste-heat recovery",
+   "blurb": "Organic Rankine cycle systems, including a patented two-stage regenerative configuration.",
+   "page": "",
+   "order": 3
+  },
+  {
+   "theme": "MSME energy efficiency",
+   "blurb": "At-scale energy auditing methodology through KISEM \u2014 255 firms across 30 sectors.",
+   "page": "",
+   "order": 4
+  },
+  {
+   "theme": "Energy storage",
+   "blurb": "Vanadium redox flow, zinc-air, and compressed-air storage (patented recuperated CAES).",
+   "page": "",
+   "order": 5
+  },
+  {
+   "theme": "Optical and spectroscopic sensing",
+   "blurb": "Steam-quality TDLAS, moisture-independent fly-ash stack sensors, LIBS diagnostics.",
+   "page": "",
+   "order": 6
+  },
+  {
+   "theme": "Fuel cells and CCHP",
+   "blurb": "Solid oxide fuel cells and combined cooling-heat-power for data centres.",
+   "page": "",
+   "order": 7
+  },
+  {
+   "theme": "AUSC power-plant materials",
+   "blurb": "High-temperature steam oxidation of advanced ultra-supercritical materials.",
+   "page": "",
+   "order": 8
+  },
+  {
+   "theme": "AI for Net-Zero",
+   "blurb": "Physics-informed machine learning for building energy.",
+   "page": "",
+   "order": 9
+  }
+ ]
+}

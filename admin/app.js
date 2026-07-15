@@ -57,7 +57,7 @@
   const KNOWN_TABS = {
     "Sponsors":     { headers: ["Name", "Type", "Domain", "Details", "Link", "Show"], seed: "../data/sponsors.json", seedKey: "sponsors", map: s => [s.name, s.type, s.domain, s.details, s.link, "Yes"] },
     "Testimonials": { headers: ["Client", "Sector", "Quote", "Show"], seed: "../data/testimonials.json", seedKey: "testimonials", map: t => [t.client, t.sector, t.quote, "Yes"] },
-    "Research":     { headers: ["Theme", "Blurb", "Page", "Order", "Show"] },
+    "Research":     { headers: ["Theme", "Blurb", "Page", "Order", "Show"], seed: "../data/research.json", seedKey: "themes", map: t => [t.theme, t.blurb, t.page || "", t.order || "", "Yes"] },
     "_Links":       { headers: ["Name", "URL", "Type"] },
   };
 
@@ -196,6 +196,25 @@
     renderRows(canEdit, showCol);
     $("#add-row").onclick = addRow;
     $("#reload").onclick = () => showTab(title);
+    const known = KNOWN_TABS[title];
+    if (canEdit && known && known.seed && !grid.rows.length) {
+      const bar = document.createElement("div");
+      bar.className = "card";
+      bar.innerHTML = `<h3>Fill “${esc(title)}” with the site's current data?</h3>
+        <p style="font-size:.9rem;color:var(--soft)">The tab is empty, so the site is showing its built-in content. One click copies that content here so you can edit it.</p>
+        <button class="primary" id="seed-tab">Fill tab</button>`;
+      $("#main").appendChild(bar);
+      $("#seed-tab").onclick = async () => {
+        try {
+          const d = await (await fetch(known.seed)).json();
+          const values = (d[known.seedKey] || []).map(known.map);
+          if (!values.length) return msg("warn", "No seed data found.");
+          await api("/values/" + encodeURIComponent("'" + title + "'!A1") + ":append?valueInputOption=USER_ENTERED",
+            { method: "POST", body: JSON.stringify({ values }) });
+          msg("ok", "Filled — edit away."); showTab(title);
+        } catch (e) { msg("err", e.message); }
+      };
+    }
   }
 
   function renderRows(canEdit, showCol) {
