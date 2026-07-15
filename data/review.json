@@ -1,10 +1,186 @@
 {
- "note": "Items needing your decision \u2014 shown in Site Studio's Review queue. Choices are saved to the _Links tab of the CMS sheet.",
+ "note": "Enrichment findings \u2014 resolve in Site Studio's Review queue. Link choices are saved to _Links; student status suggestions are applied to the Students tab.",
  "items": [
+  {
+   "type": "collaborator",
+   "name": "Vasa NJ",
+   "note": "Single strong match: Nilesh Vasa, Ace Micromatic Chair Professor, IIT Madras.",
+   "candidates": [
+    {
+     "label": "Nilesh Vasa \u2014 Chair Professor, IIT Madras",
+     "url": "https://www.linkedin.com/in/nilesh-vasa-76532bbb/"
+    }
+   ]
+  },
+  {
+   "type": "collaborator",
+   "name": "Tropea C",
+   "note": "Single strong match: Cameron Tropea, retired Professor of Fluid Mechanics, TU Darmstadt.",
+   "candidates": [
+    {
+     "label": "Cameron Tropea \u2014 TU Darmstadt",
+     "url": "https://www.linkedin.com/in/cameron-tropea-2331a8196/"
+    }
+   ]
+  },
+  {
+   "type": "collaborator",
+   "name": "Sunarso J",
+   "note": "Likely: Jaka Sunarso, Professor at Swinburne University Sarawak (1st-degree). A second sparse profile also exists.",
+   "candidates": [
+    {
+     "label": "Jaka Sunarso \u2014 Professor, Swinburne Sarawak",
+     "url": "https://www.linkedin.com/in/jakasunarso/"
+    },
+    {
+     "label": "Jaka Sunarso \u2014 (sparse profile, Penang)",
+     "url": "https://www.linkedin.com/in/jaka-sunarso-068114245/"
+    }
+   ]
+  },
+  {
+   "type": "collaborator",
+   "name": "Rajavelu H",
+   "note": "Single strong match: Hemalaxmi Rajavelu, Optical Engineer (laser/photonics/spectroscopy \u2014 matches the sensing theme). If she is a group alumna, consider adding her to the Students tab too.",
+   "candidates": [
+    {
+     "label": "Hemalaxmi Rajavelu \u2014 Optical Engineer, Chennai",
+     "url": "https://www.linkedin.com/in/hemalaxmi-rajavelu-496366137/"
+    }
+   ]
+  },
+  {
+   "type": "student",
+   "name": "Ram Kishore",
+   "note": "Match: Ram Kishore Sankaralingam \u2014 'Energy Modeling | PROMOD | US Power Markets'. He is currently listed as a CURRENT student; headline suggests ALUMNUS now in industry. He also appears in collaborators as 'Sankaralingam RK' (same person).",
+   "suggest": {
+    "status": "Alumnus",
+    "position": "Energy Modeling | US Power Markets"
+   },
+   "candidates": [
+    {
+     "label": "Ram Kishore Sankaralingam",
+     "url": "https://www.linkedin.com/in/ram-kishore-sankaralingam-500345132/"
+    }
+   ]
+  },
+  {
+   "type": "student",
+   "name": "Sandeep Koundinya",
+   "note": "Match: 'Solar Cold Room', Pune (1st-degree). Listed as CURRENT; headline suggests ALUMNUS in industry.",
+   "suggest": {
+    "status": "Alumnus",
+    "position": "Solar Cold Room, Pune"
+   },
+   "candidates": [
+    {
+     "label": "Sandeep Koundinya \u2014 Solar Cold Room",
+     "url": "https://www.linkedin.com/in/sandeep-koundinya-50608633/"
+    }
+   ]
+  },
+  {
+   "type": "student",
+   "name": "Rahul Muralidharan",
+   "note": "Match: Guest Faculty and R&D Specialist, IIT Madras (1st-degree) \u2014 appears to still be at IITM.",
+   "suggest": {
+    "status": "Current",
+    "position": "Guest Faculty and R&D Specialist, IIT Madras"
+   },
+   "candidates": [
+    {
+     "label": "Rahul Muralidharan \u2014 IIT Madras",
+     "url": "https://www.linkedin.com/in/rahul-muralidharan-70629418a/"
+    }
+   ]
+  },
+  {
+   "type": "student",
+   "name": "Vipul",
+   "note": "Match (as Vipul Dogra): now at Applied Materials. Listed under mentees; suggest ALUMNUS.",
+   "suggest": {
+    "status": "Alumnus",
+    "position": "Applied Materials"
+   },
+   "candidates": [
+    {
+     "label": "Vipul Dogra \u2014 Applied Materials",
+     "url": "https://www.linkedin.com/in/vipuldogra2126/"
+    }
+   ]
+  },
+  {
+   "type": "student",
+   "name": "Auronil",
+   "note": "Match: Auronil Mukherjee \u2014 Caterpillar Inc., Model Based Systems Engineering (Institute Research Award '23). Suggest ALUMNUS.",
+   "suggest": {
+    "status": "Alumnus",
+    "position": "Caterpillar Inc. \u2014 Model Based Systems Engineering"
+   },
+   "candidates": [
+    {
+     "label": "Auronil Mukherjee \u2014 Caterpillar",
+     "url": "https://www.linkedin.com/in/auronil/"
+    }
+   ]
+  },
+  {
+   "type": "student",
+   "name": "Surya Behra",
+   "note": "Probable match: Surya kanta Behera \u2014 thermal/HVAC systems analyst, Cuttack (2nd-degree). Please confirm.",
+   "suggest": {
+    "status": "Alumnus",
+    "position": "1-D system modelling / thermal systems analyst"
+   },
+   "candidates": [
+    {
+     "label": "Surya kanta Behera \u2014 thermal systems",
+     "url": "https://www.linkedin.com/in/surya-skb/"
+    }
+   ]
+  },
+  {
+   "type": "student",
+   "name": "Priya Singh",
+   "note": "Uncertain: common name. Best candidate is an R&D Assistant Manager in Faridabad (2nd-degree, no IITM mention). Confirm or paste the right URL.",
+   "candidates": [
+    {
+     "label": "Priya Singh \u2014 R&D, Faridabad (unconfirmed)",
+     "url": "https://www.linkedin.com/in/priya-singh-125903229/"
+    }
+   ]
+  },
+  {
+   "type": "collaborator",
+   "name": "Banerjee N",
+   "note": "10 joint papers but no LinkedIn match found for 'Banerjee + IIT Madras + energy'. Paste the correct profile URL if known.",
+   "candidates": []
+  },
+  {
+   "type": "collaborator",
+   "name": "Surendran A",
+   "note": "Two plausible matches \u2014 pick one.",
+   "candidates": [
+    {
+     "label": "Anandu Surendran \u2014 Energy systems / thermal management (1st-degree)",
+     "url": "https://www.linkedin.com/in/anandusurendran/"
+    },
+    {
+     "label": "Ammu Surendran \u2014 Postdoctoral Researcher, IIT Madras",
+     "url": "https://www.linkedin.com/in/ammu-surendran-05b006214/"
+    }
+   ]
+  },
   {
    "type": "venture",
    "name": "EnergyEta",
    "note": "Official website not found \u2014 energyeta.com is a parked domain. Paste the correct URL if one exists.",
+   "candidates": []
+  },
+  {
+   "type": "student",
+   "name": "Single-name students",
+   "note": "Bala, Gautam, Hemant, Malavika, Manish, Ravindra Devi, Shyamal, Rishikesh, Peter, Aravind, Nandhini, Patel \u2014 first names alone can't be matched on LinkedIn reliably. Add surnames in the Students tab and I can search again.",
    "candidates": []
   }
  ]

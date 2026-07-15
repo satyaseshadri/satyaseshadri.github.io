@@ -414,6 +414,8 @@
             <button class="pick" data-i="${i}" data-url="${esc(c.url)}" ${token ? "" : "disabled"}>Use this</button>
             <a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.label || c.url)} ↗</a>
           </div>`).join("")}
+        ${it.suggest ? `<div class="msg warn" style="margin:.5rem 0">Suggested: mark as <b>${esc(it.suggest.status)}</b>${it.suggest.position ? ", position: “" + esc(it.suggest.position) + "”" : ""}
+          <button class="apply-status" data-i="${i}" style="margin-left:.6rem" ${token ? "" : "disabled"}>Apply to Students tab</button></div>` : ""}
         <div style="display:flex;gap:.6rem;margin-top:.6rem">
           <input style="flex:1;font:inherit;padding:.4rem .6rem;border:1px solid var(--line);border-radius:5px" data-custom="${i}" placeholder="…or paste the correct URL">
           <button class="pick-custom" data-i="${i}" ${token ? "" : "disabled"}>Save</button>
@@ -430,6 +432,29 @@
       if (v) doSave(+b.dataset.i, v);
     }));
     document.querySelectorAll(".dismiss").forEach(b => b.addEventListener("click", () => doSave(+b.dataset.i, "-")));
+    document.querySelectorAll(".apply-status").forEach(b => b.addEventListener("click", async () => {
+      const it = open[+b.dataset.i];
+      try {
+        const g = await loadTab("Students");
+        const iN = g.header.indexOf("Name"), iS = g.header.indexOf("Status"),
+              iP = g.header.indexOf("Current Position"), iL = g.header.indexOf("Link");
+        const needle = it.name.toLowerCase();
+        const ri = g.rows.findIndex(r => {
+          const n = (r[iN] || "").toLowerCase();
+          return n === needle || n.includes(needle) || needle.includes(n);
+        });
+        if (ri < 0) { msg("err", "Couldn't find “" + it.name + "” in the Students tab."); return; }
+        const data = [];
+        const cell = (c, v) => data.push({ range: "'Students'!" + colLetter(c) + (ri + 2), values: [[v]] });
+        if (it.suggest.status && iS >= 0) cell(iS, it.suggest.status);
+        if (it.suggest.position && iP >= 0) cell(iP, it.suggest.position);
+        if (it.candidates && it.candidates.length === 1 && iL >= 0) cell(iL, it.candidates[0].url);
+        await api("/values:batchUpdate", { method: "POST", body: JSON.stringify({ valueInputOption: "USER_ENTERED", data }) });
+        await saveLink(it.name, (it.candidates[0] || {}).url || "-", it.type);
+        msg("ok", "Updated “" + (g.rows[ri][iN] || it.name) + "” in Students — live within a few minutes.");
+        showReview();
+      } catch (e) { msg("err", e.message); }
+    }));
   }
 
   /* ---------------- boot ---------------- */
