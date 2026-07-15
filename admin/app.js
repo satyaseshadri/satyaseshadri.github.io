@@ -92,7 +92,8 @@
   let firstTabSig = null;
   async function loadTab(title) {
     if (token) {
-      if (!sheetsMeta.find(s => s.title === title)) return { missing: true, header: [], rows: [] };
+      const m = sheetsMeta.find(s => s.title === title);
+      if (!m || m.creatable || m.sheetId == null) return { missing: true, header: [], rows: [] };
       const d = await api("/values/" + encodeURIComponent("'" + title + "'!A1:AZ1000"));
       const v = d.values || [];
       return { header: v[0] || [], rows: v.slice(1) };
